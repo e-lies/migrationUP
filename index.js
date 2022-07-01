@@ -414,10 +414,6 @@ var download = function (url, dest, cb) {
 };
 
 app.get("/download/:id/:type/:name", (req, res) => {
-  console.log(
-    "params = ",
-    `Attachments/${req.params.id}/${req.params.type}/${req.params.name}`
-  );
   res.download(
     `Attachments/${req.params.id}/${req.params.type}/${req.params.name}`,
     function (err) {
@@ -441,13 +437,6 @@ app.get("/stat/:type", (req, res) => {
   let { type } = req.params;
   if (type === "dossier") {
     Dossiers.aggregate([
-      {
-        $match: {
-          "details.status": {
-            $in: ["entered"],
-          },
-        },
-      },
       {
         $project: Object.keys(detailsColumns).reduce((acc, cur) => {
           acc[cur] = detailsColumns[cur].key;
