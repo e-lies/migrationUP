@@ -32,7 +32,6 @@ app.post("/insertContact", (req, res) => {
   //console.log("req.body = ", req.body);
   Contacts.insertMany(
     req.body.map((r) => {
-      console.log("r = ", r);
       let cont = r.contact;
       return { ...cont, _id: cont._id["$id"] };
     }),
@@ -290,6 +289,7 @@ const typeColumns = {
       key: "$devis.mission",
       type: "varchar",
       label: "Mission",
+      length: 4,
     },
     /*modaliteIntervention: {
       key: "$devis.modaliteIntervention",
