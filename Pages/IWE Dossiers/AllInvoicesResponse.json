@@ -1,0 +1,1228 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice"
+        },
+        "curies": {
+            "name": "iwe",
+            "href": "/api/docs/resources/{rel}.md",
+            "templated": true
+        },
+        "iwe:trash": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/trash"
+        }
+    },
+    "_embedded": {
+        "results": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Invoice"
+                    },
+                    "recipient": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839886"
+                    },
+                    "recipient2": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839896"
+                    },
+                    "relatedCase": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "transmitter": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/5e20bb3cd6a8c70046ff50d1"
+                    },
+                    "relatedQuote": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                    },
+                    "accountingSlip": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/AccountingSlip/5f8f0bb5308005002579cc05"
+                    },
+                    "depositInvoices": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice?q=%7B%22linkedInvoice._id%22%3A%7B%22%24id%22%3A%225e600b4e0b35f0006dc2f3a4%22%7D%7D"
+                    },
+                    "lines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/lines"
+                    },
+                    "quoteLines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/quoteLines"
+                    },
+                    "recouvrement": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/recouvrement"
+                    },
+                    "vatLines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/vatLines"
+                    },
+                    "invoicePayments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/invoicePayments"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/comments"
+                    },
+                    "iwe:audit-log": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/audit-log"
+                    },
+                    "iwe:sharing": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/_sharing"
+                    },
+                    "iwe:refs": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/_refs/{ref}",
+                        "templated": true
+                    },
+                    "iwe:trash": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/trash"
+                    },
+                    "iwe:freeze": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/freeze"
+                    }
+                },
+                "_embedded": {
+                    "lines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/lines/5e600b4e4ca249001a836ad3"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/InvoiceLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                }
+                            },
+                            "amountHT": 130,
+                            "amountDiscounted": 130,
+                            "depositInvoicePercent": 0,
+                            "depositInvoiceAmount": 0,
+                            "vatType": 0.2,
+                            "vatTypeFRouLU": 0.2,
+                            "vatAmount": 26,
+                            "globalAmount": 156,
+                            "pendingNature": "RDF",
+                            "commentaire": "",
+                            "designation": "Recherche de fuite",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aa9"
+                            },
+                            "modifiedBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aa9"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-04T20:10:54.762Z"
+                            },
+                            "dateModified": {
+                                "$date": "2020-03-04T20:12:15.767Z"
+                            },
+                            "_id": {
+                                "$id": "5e600b4e4ca249001a836ad3"
+                            },
+                            "version": 2,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/lines"
+                        }
+                    ],
+                    "quoteLines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/quoteLines/5e600b4efebe4300270e33c6"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/InvoiceQuoteLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "relatedQuoteLine": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/lines/5e203983f5656e001888ed65"
+                                },
+                                "treatment": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/quoteLines/5e600b4efebe4300270e33c6/treatment"
+                                }
+                            },
+                            "_embedded": {
+                                "treatment": {
+                                    "_links": {
+                                        "self": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/quoteLines/5e600b4efebe4300270e33c6/treatment"
+                                        },
+                                        "curies": {
+                                            "name": "iwe",
+                                            "href": "/api/docs/resources/{rel}.md",
+                                            "templated": true
+                                        },
+                                        "iwe:definition": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/TextileTreatment"
+                                        },
+                                        "iwe:case": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                        },
+                                        "iwe:self-parent": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/quoteLines/5e600b4efebe4300270e33c6"
+                                        }
+                                    },
+                                    "rnf": false,
+                                    "vi": false,
+                                    "createdBy": {
+                                        "$id": "5dfcf8cc6bd6db00188c9aa9"
+                                    },
+                                    "dateCreated": {
+                                        "$date": "2020-03-04T20:10:54.574Z"
+                                    },
+                                    "_id": {
+                                        "$id": "5e600b4efebe4300270e33c7"
+                                    },
+                                    "version": 1,
+                                    "_meta": {},
+                                    "_resourcePath": "/case/Invoice/quoteLines/treatment"
+                                }
+                            },
+                            "label": "Recherche de fuite visuelle AXA",
+                            "unit": "F",
+                            "unitPrice": 130,
+                            "unitPriceDiscounted": 130,
+                            "quantity": 1,
+                            "globalAmount": 130,
+                            "pendingNature": "RDF",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aa9"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-04T20:10:54.573Z"
+                            },
+                            "_id": {
+                                "$id": "5e600b4efebe4300270e33c6"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/quoteLines"
+                        }
+                    ],
+                    "recouvrement": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/recouvrement"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            },
+                            "iwe:definition": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Recouvrement"
+                            },
+                            "iwe:case": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                            },
+                            "iwe:self-parent": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                            }
+                        },
+                        "invoicePaymentAmount": 156,
+                        "invoicePaymentDate": {
+                            "$date": "2020-03-10T23:00:00.000Z"
+                        },
+                        "invoicePaymentMode": "VIR",
+                        "mandantARelancer": false,
+                        "payeurARelancer": false,
+                        "createdBy": {
+                            "$id": "5dfcf8cc6bd6db00188c9aa9"
+                        },
+                        "modifiedBy": {
+                            "$id": "5dfcf8cc3a390f0049bbb747"
+                        },
+                        "dateCreated": {
+                            "$date": "2020-03-04T20:10:54.371Z"
+                        },
+                        "dateModified": {
+                            "$date": "2020-08-19T10:11:53.745Z"
+                        },
+                        "_id": {
+                            "$id": "5e600b4e0b35f0006dc2f3a6"
+                        },
+                        "version": 2,
+                        "_meta": {},
+                        "_resourcePath": "/case/Invoice/recouvrement"
+                    },
+                    "vatLines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/vatLines/5e79cf3ace3a7f001be11648"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                }
+                            },
+                            "tvaFR": 0,
+                            "tvaLU": 0,
+                            "tva": 0,
+                            "montantHT": 0,
+                            "montantHTAvecAjustement": 0,
+                            "montantRemise": 0,
+                            "montantHTNet": 0,
+                            "totalTvaCalcul": 0,
+                            "displayOrder": 1,
+                            "isUsed": false,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:30.315Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf3ace3a7f001be11648"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/vatLines/5e79cf3a1f82bf0043f67dce"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                }
+                            },
+                            "tvaFR": 0.055,
+                            "tvaLU": 0.03,
+                            "tva": 0.055,
+                            "montantHT": 0,
+                            "montantHTAvecAjustement": 0,
+                            "montantRemise": 0,
+                            "montantHTNet": 0,
+                            "totalTvaCalcul": 0,
+                            "displayOrder": 2,
+                            "isUsed": false,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:31.024Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf3a1f82bf0043f67dce"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/vatLines/5e79cf3bf5679c001bec3bf1"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                }
+                            },
+                            "tvaFR": 0.1,
+                            "tvaLU": 0.08,
+                            "tva": 0.1,
+                            "montantHT": 0,
+                            "montantHTAvecAjustement": 0,
+                            "montantRemise": 0,
+                            "montantHTNet": 0,
+                            "totalTvaCalcul": 0,
+                            "displayOrder": 3,
+                            "isUsed": false,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:31.896Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf3bf5679c001bec3bf1"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/vatLines/5e79cf3cf5679c001bec3bfc"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                }
+                            },
+                            "tvaFR": 0.2,
+                            "tvaLU": 0.17,
+                            "tva": 0.2,
+                            "montantHT": 130,
+                            "montantHTAvecAjustement": 130,
+                            "montantRemise": 0,
+                            "montantHTNet": 130,
+                            "totalTvaCalcul": 26,
+                            "displayOrder": 2,
+                            "isUsed": true,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:32.231Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf3cf5679c001bec3bfc"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        }
+                    ],
+                    "invoicePayments": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/invoicePayments/5fda4d067847b000256d5cf2"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/InvoicePayment"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                }
+                            },
+                            "nature": "VIR",
+                            "amount": 156,
+                            "date": {
+                                "$date": "2020-03-10T23:00:00.000Z"
+                            },
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-12-16T18:08:07.253Z"
+                            },
+                            "_id": {
+                                "$id": "5fda4d067847b000256d5cf2"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/invoicePayments"
+                        }
+                    ],
+                    "comments": [],
+                    "_sharing": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4/_sharing"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            }
+                        },
+                        "version": 3,
+                        "organizations": [
+                            {
+                                "$id": "5e04e6485892dc00828d30ab"
+                            }
+                        ],
+                        "owner": {
+                            "$id": "5dfcf8cc6bd6db00188c9aa9"
+                        },
+                        "level": "public",
+                        "cUsers": [],
+                        "cOrganizations": []
+                    }
+                },
+                "recipientRef": "2002207",
+                "ref": "FA2002115",
+                "codeAgence": "01",
+                "codeUpFacturation": "U",
+                "startCountAt": 2000,
+                "type": "FA",
+                "_label": "FA2002115",
+                "title": "Severine Deluc / Severine Deluc / 75011 Paris",
+                "invoiceType": "Facture",
+                "refOrProforma": "FA2002115",
+                "date": {
+                    "$date": "2020-03-03T23:00:00.000Z"
+                },
+                "constructionSiteStart": {
+                    "$date": "2020-02-10T23:00:00.000Z"
+                },
+                "constructionSiteEnd": {
+                    "$date": "2020-02-10T23:00:00.000Z"
+                },
+                "metiers": [
+                    "professionRDF"
+                ],
+                "status": "paid",
+                "validatedDate": {
+                    "$date": "2020-03-04T20:11:47.654Z"
+                },
+                "toSendDate": {
+                    "$date": "2020-03-04T20:12:22.873Z"
+                },
+                "sendDate": {
+                    "$date": "2020-03-04T20:12:42.123Z"
+                },
+                "paidDate": {
+                    "$date": "2020-08-19T10:11:55.631Z"
+                },
+                "isPartiel": false,
+                "recordedDate": {
+                    "$date": "2020-11-15T23:00:00.000Z"
+                },
+                "recorded": true,
+                "discount": 0,
+                "depositInvoicePercent": 0,
+                "paysTva": "FR",
+                "totalHTVATNormalBeforDiscount": 130,
+                "totalHTVATMinBeforDiscount": 0,
+                "totalHTVATSmallBeforDiscount": 0,
+                "totalHTVATNormal": 130,
+                "totalHTVATMin": 0,
+                "totalHTVATSmall": 0,
+                "totalHT": 130,
+                "totalHTDiscount": 0,
+                "adjustmentVatMin": 0,
+                "adjustmentVatNormal": 0,
+                "gloablAdjustement": null,
+                "withAdjustement": false,
+                "globalAmount": 130,
+                "totalTVA": 26,
+                "totalTTC": 156,
+                "globalVatAmount": 26,
+                "classicVatAmount": 26,
+                "vatLessAmount": 0,
+                "vatSmallAmount": 0,
+                "vatLessOrSmallAmount": 0,
+                "totalTaxInclusive": 156,
+                "totalWithoutDeposit": 156,
+                "validatedBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "toSendBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "sendBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "paidBy": {
+                    "$id": "5e3045eb4ad33a0018d68e42"
+                },
+                "relatedCaseId": {
+                    "$id": "5e203654f22e45001a839800"
+                },
+                "restantDu": 0,
+                "sommeReglee": 156,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aa9"
+                },
+                "modifiedBy": {
+                    "$id": "5dfa7ca29565bc001a3f78c5"
+                },
+                "dateCreated": {
+                    "$date": "2020-03-04T20:10:54.371Z"
+                },
+                "dateModified": {
+                    "$date": "2021-02-15T16:24:13.574Z"
+                },
+                "_id": {
+                    "$id": "5e600b4e0b35f0006dc2f3a4"
+                },
+                "version": 13,
+                "_meta": {
+                    "_overriddenFields": {
+                        "date": true
+                    },
+                    "errors": []
+                },
+                "_resourcePath": "/case/Invoice"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Invoice"
+                    },
+                    "recipient": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839886"
+                    },
+                    "recipient2": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839896"
+                    },
+                    "relatedCase": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "transmitter": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/5e20bb3cd6a8c70046ff50d1"
+                    },
+                    "relatedQuote": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                    },
+                    "accountingSlip": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/AccountingSlip/5f8f0bb5308005002579cc05"
+                    },
+                    "depositInvoices": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice?q=%7B%22linkedInvoice._id%22%3A%7B%22%24id%22%3A%225e601463a734da001a772315%22%7D%7D"
+                    },
+                    "lines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/lines"
+                    },
+                    "quoteLines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/quoteLines"
+                    },
+                    "recouvrement": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/recouvrement"
+                    },
+                    "vatLines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/vatLines"
+                    },
+                    "invoicePayments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/invoicePayments"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/comments"
+                    },
+                    "iwe:audit-log": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/audit-log"
+                    },
+                    "iwe:sharing": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/_sharing"
+                    },
+                    "iwe:refs": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/_refs/{ref}",
+                        "templated": true
+                    },
+                    "iwe:trash": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/trash"
+                    },
+                    "iwe:freeze": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/freeze"
+                    }
+                },
+                "_embedded": {
+                    "lines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/lines/5e6014640b35f0006dc2f457"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/InvoiceLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                }
+                            },
+                            "amountHT": 460,
+                            "amountDiscounted": 460,
+                            "depositInvoicePercent": 0,
+                            "depositInvoiceAmount": 0,
+                            "vatType": 0.2,
+                            "vatTypeFRouLU": 0.2,
+                            "vatAmount": 92,
+                            "globalAmount": 552,
+                            "pendingNature": "RDF",
+                            "commentaire": "",
+                            "designation": "Recherche de fuite",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aa9"
+                            },
+                            "modifiedBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aa9"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-04T20:49:41.104Z"
+                            },
+                            "dateModified": {
+                                "$date": "2020-03-04T20:51:22.681Z"
+                            },
+                            "_id": {
+                                "$id": "5e6014640b35f0006dc2f457"
+                            },
+                            "version": 2,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/lines"
+                        }
+                    ],
+                    "quoteLines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/quoteLines/5e601464febe4300270e3496"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/InvoiceQuoteLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "relatedQuoteLine": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/lines/5e3ac7377f839d001879b7ef"
+                                },
+                                "treatment": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/quoteLines/5e601464febe4300270e3496/treatment"
+                                }
+                            },
+                            "_embedded": {
+                                "treatment": {
+                                    "_links": {
+                                        "self": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/quoteLines/5e601464febe4300270e3496/treatment"
+                                        },
+                                        "curies": {
+                                            "name": "iwe",
+                                            "href": "/api/docs/resources/{rel}.md",
+                                            "templated": true
+                                        },
+                                        "iwe:definition": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/TextileTreatment"
+                                        },
+                                        "iwe:case": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                        },
+                                        "iwe:self-parent": {
+                                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/quoteLines/5e601464febe4300270e3496"
+                                        }
+                                    },
+                                    "rnf": false,
+                                    "vi": false,
+                                    "createdBy": {
+                                        "$id": "5dfcf8cc6bd6db00188c9aa9"
+                                    },
+                                    "dateCreated": {
+                                        "$date": "2020-03-04T20:49:40.754Z"
+                                    },
+                                    "_id": {
+                                        "$id": "5e601464febe4300270e3497"
+                                    },
+                                    "version": 1,
+                                    "_meta": {},
+                                    "_resourcePath": "/case/Invoice/quoteLines/treatment"
+                                }
+                            },
+                            "label": "RDF",
+                            "unit": "F",
+                            "unitPrice": 460,
+                            "unitPriceDiscounted": 460,
+                            "quantity": 1,
+                            "globalAmount": 460,
+                            "pendingNature": "RDF",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aa9"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-04T20:49:40.754Z"
+                            },
+                            "_id": {
+                                "$id": "5e601464febe4300270e3496"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/quoteLines"
+                        }
+                    ],
+                    "recouvrement": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/recouvrement"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            },
+                            "iwe:definition": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Recouvrement"
+                            },
+                            "iwe:case": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                            },
+                            "iwe:self-parent": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                            }
+                        },
+                        "invoicePaymentAmount": 552,
+                        "invoicePaymentDate": {
+                            "$date": "2020-03-10T23:00:00.000Z"
+                        },
+                        "invoicePaymentMode": "VIR",
+                        "mandantARelancer": false,
+                        "payeurARelancer": false,
+                        "createdBy": {
+                            "$id": "5dfcf8cc6bd6db00188c9aa9"
+                        },
+                        "modifiedBy": {
+                            "$id": "5dfcf8cc3a390f0049bbb747"
+                        },
+                        "dateCreated": {
+                            "$date": "2020-03-04T20:49:39.977Z"
+                        },
+                        "dateModified": {
+                            "$date": "2020-08-19T10:11:10.751Z"
+                        },
+                        "_id": {
+                            "$id": "5e601463a734da001a772317"
+                        },
+                        "version": 2,
+                        "_meta": {},
+                        "_resourcePath": "/case/Invoice/recouvrement"
+                    },
+                    "vatLines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/vatLines/5e79cf3c48aeb1001bfb8a01"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                }
+                            },
+                            "tvaFR": 0,
+                            "tvaLU": 0,
+                            "tva": 0,
+                            "montantHT": 0,
+                            "montantHTAvecAjustement": 0,
+                            "montantRemise": 0,
+                            "montantHTNet": 0,
+                            "totalTvaCalcul": 0,
+                            "displayOrder": 1,
+                            "isUsed": false,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:32.903Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf3c48aeb1001bfb8a01"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/vatLines/5e79cf3d7999cd003f1a7033"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                }
+                            },
+                            "tvaFR": 0.055,
+                            "tvaLU": 0.03,
+                            "tva": 0.055,
+                            "montantHT": 0,
+                            "montantHTAvecAjustement": 0,
+                            "montantRemise": 0,
+                            "montantHTNet": 0,
+                            "totalTvaCalcul": 0,
+                            "displayOrder": 2,
+                            "isUsed": false,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:33.519Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf3d7999cd003f1a7033"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/vatLines/5e79cf3e48aeb1001bfb8a0d"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                }
+                            },
+                            "tvaFR": 0.1,
+                            "tvaLU": 0.08,
+                            "tva": 0.1,
+                            "montantHT": 0,
+                            "montantHTAvecAjustement": 0,
+                            "montantRemise": 0,
+                            "montantHTNet": 0,
+                            "totalTvaCalcul": 0,
+                            "displayOrder": 3,
+                            "isUsed": false,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:34.202Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf3e48aeb1001bfb8a0d"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/vatLines/5e79cf411f82bf0043f67dd4"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                }
+                            },
+                            "tvaFR": 0.2,
+                            "tvaLU": 0.17,
+                            "tva": 0.2,
+                            "montantHT": 460,
+                            "montantHTAvecAjustement": 460,
+                            "montantRemise": 0,
+                            "montantHTNet": 460,
+                            "totalTvaCalcul": 92,
+                            "displayOrder": 2,
+                            "isUsed": true,
+                            "withAdjustement": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T09:13:37.359Z"
+                            },
+                            "_id": {
+                                "$id": "5e79cf411f82bf0043f67dd4"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/vatLines"
+                        }
+                    ],
+                    "invoicePayments": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/invoicePayments/5fda4d0659e1a10024bc69e6"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/InvoicePayment"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                }
+                            },
+                            "nature": "VIR",
+                            "amount": 552,
+                            "date": {
+                                "$date": "2020-03-10T23:00:00.000Z"
+                            },
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-12-16T18:08:07.123Z"
+                            },
+                            "_id": {
+                                "$id": "5fda4d0659e1a10024bc69e6"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Invoice/invoicePayments"
+                        }
+                    ],
+                    "comments": [],
+                    "_sharing": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315/_sharing"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            }
+                        },
+                        "version": 3,
+                        "organizations": [
+                            {
+                                "$id": "5e04e6485892dc00828d30ab"
+                            }
+                        ],
+                        "owner": {
+                            "$id": "5dfcf8cc6bd6db00188c9aa9"
+                        },
+                        "level": "public",
+                        "cUsers": [],
+                        "cOrganizations": []
+                    }
+                },
+                "recipientRef": "2002207",
+                "ref": "FA2002116",
+                "codeAgence": "01",
+                "codeUpFacturation": "U",
+                "startCountAt": 2000,
+                "type": "FA",
+                "_label": "FA2002116",
+                "title": "Severine Deluc / Severine Deluc / 75011 Paris",
+                "invoiceType": "Facture",
+                "refOrProforma": "FA2002116",
+                "date": {
+                    "$date": "2020-03-03T23:00:00.000Z"
+                },
+                "constructionSiteStart": {
+                    "$date": "2020-02-10T23:00:00.000Z"
+                },
+                "constructionSiteEnd": {
+                    "$date": "2020-02-10T23:00:00.000Z"
+                },
+                "metiers": [
+                    "professionRDF"
+                ],
+                "status": "paid",
+                "validatedDate": {
+                    "$date": "2020-03-04T20:50:49.446Z"
+                },
+                "toSendDate": {
+                    "$date": "2020-03-04T20:51:27.532Z"
+                },
+                "sendDate": {
+                    "$date": "2020-03-04T20:51:30.663Z"
+                },
+                "paidDate": {
+                    "$date": "2020-08-19T10:11:12.320Z"
+                },
+                "isPartiel": false,
+                "recordedDate": {
+                    "$date": "2020-11-15T23:00:00.000Z"
+                },
+                "recorded": true,
+                "discount": 0,
+                "depositInvoicePercent": 0,
+                "paysTva": "FR",
+                "totalHTVATNormalBeforDiscount": 460,
+                "totalHTVATMinBeforDiscount": 0,
+                "totalHTVATSmallBeforDiscount": 0,
+                "totalHTVATNormal": 460,
+                "totalHTVATMin": 0,
+                "totalHTVATSmall": 0,
+                "totalHT": 460,
+                "totalHTDiscount": 0,
+                "adjustmentVatMin": 0,
+                "adjustmentVatNormal": 0,
+                "gloablAdjustement": null,
+                "withAdjustement": false,
+                "globalAmount": 460,
+                "totalTVA": 92,
+                "totalTTC": 552,
+                "globalVatAmount": 92,
+                "classicVatAmount": 92,
+                "vatLessAmount": 0,
+                "vatSmallAmount": 0,
+                "vatLessOrSmallAmount": 0,
+                "totalTaxInclusive": 552,
+                "totalWithoutDeposit": 552,
+                "validatedBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "toSendBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "sendBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "paidBy": {
+                    "$id": "5e3045eb4ad33a0018d68e42"
+                },
+                "relatedCaseId": {
+                    "$id": "5e203654f22e45001a839800"
+                },
+                "restantDu": 0,
+                "sommeReglee": 552,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aa9"
+                },
+                "modifiedBy": {
+                    "$id": "5dfa7ca29565bc001a3f78c5"
+                },
+                "dateCreated": {
+                    "$date": "2020-03-04T20:49:39.979Z"
+                },
+                "dateModified": {
+                    "$date": "2021-02-15T16:24:13.739Z"
+                },
+                "_id": {
+                    "$id": "5e601463a734da001a772315"
+                },
+                "version": 13,
+                "_meta": {
+                    "_overriddenFields": {
+                        "date": true
+                    },
+                    "errors": []
+                },
+                "_resourcePath": "/case/Invoice"
+            }
+        ]
+    },
+    "count": 2,
+    "currentPage": 1,
+    "perPage": "all"
+}

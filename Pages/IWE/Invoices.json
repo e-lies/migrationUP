@@ -1,0 +1,91 @@
+{   
+    "recipientRef": "2105616",
+	"ref": "FA2110U0600215",
+	"codeAgence": "06",
+	"codeUpFacturation": "U",
+	"invoiceVersion": 2,
+	"startCountAt": 2000,
+	"type": "FA",
+	"_label": "FA2110U0600215",
+	"title": "Chagah Mouneyra / Chagah Mouneyra / 59000 Lille",
+	"invoiceType": "Facture",
+	"refOrProforma": "FA2110U0600215",
+	"date": {
+		"$date": "2021-10-19T22:00:00.000Z"
+	},
+	"constructionSiteStart": {
+	    "$date": "2021-10-05T22:00:00.000Z"
+	},
+	"constructionSiteEnd": {
+		"$date": "2021-10-06T22:00:00.000Z"
+	},
+	"metiers": [
+		"professionPurification"
+	],
+	"status": "send",
+	"validatedDate": {
+		"$date": "2021-10-20T12:29:13.880Z"
+	},
+	"toSendDate": {
+		"$date": "2021-10-20T12:29:22.645Z"
+	},
+	"sendDate": {
+		"$date": "2021-10-20T12:29:26.341Z"
+	},
+	"recorded": false,
+	"discount": 0,
+	"depositInvoicePercent": 0,
+	"paysTva": "FR",
+	"totalHTVATNormalBeforDiscount": 0,
+	"totalHTVATMinBeforDiscount": 1565,
+	"totalHTVATSmallBeforDiscount": 0,
+	"totalHTVATNormal": 0,
+	"totalHTVATMin": 1565,
+	"totalHTVATSmall": 0,
+	"totalHT": 1565,
+	"totalHTDiscount": 0,
+	"adjustmentVatMin": 0,
+	"adjustmentVatNormal": 0,
+	"withAdjustement": false,
+	"globalAmount": 1565,
+	"totalTVA": 156.5,
+	"totalTTC": 1721.5,
+	"globalVatAmount": 156.5,
+	"classicVatAmount": 0,
+	"vatLessAmount": 156.5,
+	"vatSmallAmount": 0,
+	"vatLessOrSmallAmount": 156.5,
+	"totalTaxInclusive": 1721.5,
+	"totalWithoutDeposit": 1721.5,
+	"validatedBy": {
+	    "$id": "5f031542f30441002557376e"
+	},
+	"toSendBy": {
+		"$id": "5f031542f30441002557376e"
+	},
+	"sendBy": {
+		"$id": "5f031542f30441002557376e"
+	},
+	"relatedCaseId": {
+		"$id": "60880f226248c00017f387ab"
+	},
+	"restantDu": 1721.5,
+	"sommeReglee": 0,
+	"createdBy": {
+	"$id": "5f03143f0fccca0024a34467"
+	},
+	"modifiedBy": {
+		"$id": "5f03143f0fccca0024a34467"
+	},
+	"dateCreated": {
+		"$date": "2021-10-20T12:28:00.636Z"
+	},
+	"dateModified": {
+	    "$date": "2021-10-20T12:29:26.787Z"
+	},
+	"_id": {
+		"$id": "61700b5031443e00112cc4b0"
+	},
+	"version": 8,
+	"_resourcePath": "/case/Invoice"
+}

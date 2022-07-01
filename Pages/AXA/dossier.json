@@ -1,0 +1,788 @@
+{
+    "Adr1Livr": [
+        "Avenue michel bizot"
+    ],
+    "Adr2Livr": [
+        "Avenue michel bizot"
+    ],
+    "Adresse1": [
+        "Avenue michel bizot"
+    ],
+    "Adresse2": [
+        "Avenue michel bizot"
+    ],
+    "AgenceClientAccordCadre": [
+        "abcd1234"
+    ],
+    "AgenceClientAdresse1": [
+        "Adresse Test"
+    ],
+    "AgenceClientAdresse2": [
+        ""
+    ],
+    "AgenceClientCP": [
+        "75011"
+    ],
+    "AgenceClientCPrefixe": [
+        ""
+    ],
+    "AgenceClientCResponsable": [
+        "CONDAMINES Caroline"
+    ],
+    "AgenceClientComment": [
+        "Test commentaire agence"
+    ],
+    "AgenceClientEmail": [
+        "test@montest.fr"
+    ],
+    "AgenceClientGardAdresse1": [
+        ""
+    ],
+    "AgenceClientGardAdresse2": [
+        ""
+    ],
+    "AgenceClientGardCP": [
+        ""
+    ],
+    "AgenceClientGardEmail": [
+        ""
+    ],
+    "AgenceClientGardNomPrenom": [
+        ""
+    ],
+    "AgenceClientGardPrefixe": [
+        ""
+    ],
+    "AgenceClientGardPrenom": [
+        ""
+    ],
+    "AgenceClientGardTeP": [
+        ""
+    ],
+    "AgenceClientGardTel": [
+        ""
+    ],
+    "AgenceClientGardVille": [
+        ""
+    ],
+    "AgenceClientGestAdresse1": [
+        ""
+    ],
+    "AgenceClientGestAdresse2": [
+        ""
+    ],
+    "AgenceClientGestCP": [
+        ""
+    ],
+    "AgenceClientGestEmail": [
+        ""
+    ],
+    "AgenceClientGestNomPrenom": [
+        ""
+    ],
+    "AgenceClientGestPrefixe": [
+        ""
+    ],
+    "AgenceClientGestPrenom": [
+        ""
+    ],
+    "AgenceClientGestTeP": [
+        ""
+    ],
+    "AgenceClientGestTel": [
+        ""
+    ],
+    "AgenceClientGestVille": [
+        ""
+    ],
+    "AgenceClientId": [
+        "10"
+    ],
+    "AgenceClientRaisonSociale": [
+        "Paris Habitat Test"
+    ],
+    "AgenceClientRedevanceCom": [
+        "0"
+    ],
+    "AgenceClientSigle": [
+        "CCO"
+    ],
+    "AgenceClientTeP": [
+        ""
+    ],
+    "AgenceClientTel": [
+        ""
+    ],
+    "AgenceClientVille": [
+        "Esparsac"
+    ],
+    "AgenceUP": [
+        "Agence Grand-Ouest"
+    ],
+    "AssurAccordCadre": [
+        ""
+    ],
+    "AssurAdresse1": [
+        ""
+    ],
+    "AssurAdresse2": [
+        ""
+    ],
+    "AssurAdresse3": [
+        ""
+    ],
+    "AssurCP": [
+        ""
+    ],
+    "AssurCPrefixe": [
+        ""
+    ],
+    "AssurCResponsable": [
+        ""
+    ],
+    "AssurComment": [
+        ""
+    ],
+    "AssurContact": [
+        ""
+    ],
+    "AssurDeuxEmail": [
+        ""
+    ],
+    "AssurDeuxTelephone": [
+        ""
+    ],
+    "AssurEmail": [
+        ""
+    ],
+    "AssurFactAdresse1": [
+        ""
+    ],
+    "AssurFactAdresse2": [
+        ""
+    ],
+    "AssurFactAdresse3": [
+        ""
+    ],
+    "AssurFactCP": [
+        ""
+    ],
+    "AssurFactComment": [
+        ""
+    ],
+    "AssurFactContact": [
+        ""
+    ],
+    "AssurFactDeuxEmail": [
+        ""
+    ],
+    "AssurFactDeuxTelephone": [
+        ""
+    ],
+    "AssurFactEmail": [
+        ""
+    ],
+    "AssurFactFax": [
+        ""
+    ],
+    "AssurFactNomPrenom": [
+        ""
+    ],
+    "AssurFactPrefixe": [
+        ""
+    ],
+    "AssurFactPrenom": [
+        ""
+    ],
+    "AssurFactTeP": [
+        ""
+    ],
+    "AssurFactTel": [
+        ""
+    ],
+    "AssurFactVille": [
+        ""
+    ],
+    "AssurFax": [
+        ""
+    ],
+    "AssurId": [
+        ""
+    ],
+    "AssurNomPrenom": [
+        ""
+    ],
+    "AssurPrefixe": [
+        ""
+    ],
+    "AssurPrenom": [
+        ""
+    ],
+    "AssurSigle": [
+        ""
+    ],
+    "AssurSiteInt": [
+        ""
+    ],
+    "AssurTeP": [
+        ""
+    ],
+    "AssurTel": [
+        ""
+    ],
+    "AssurVille": [
+        ""
+    ],
+    "BCRequis": [
+        "NON"
+    ],
+    "BoutCreerLivr": [
+        ""
+    ],
+    "CLivr": [
+        "75001"
+    ],
+    "CP": [
+        "75001"
+    ],
+    "ChargeRecon": [
+        ""
+    ],
+    "CodeRegion": [
+        "RNS"
+    ],
+    "CodeSinistre": [
+        "ASS"
+    ],
+    "ComProtectEntree": [
+        ""
+    ],
+    "ComplTypeSinistre": [
+        ""
+    ],
+    "Contact": [
+        ""
+    ],
+    "DatRecon": [
+        ""
+    ],
+    "DateCreation": [
+        "24/10/21"
+    ],
+    "DateMaj": [
+        "24/10/21"
+    ],
+    "DateReception": [
+        ""
+    ],
+    "DateSinistre": [
+        ""
+    ],
+    "DeuxEmail": [
+        ""
+    ],
+    "DeuxTLivr": [
+        ""
+    ],
+    "DeuxTelephone": [
+        ""
+    ],
+    "DossierParent": [
+        ""
+    ],
+    "Email": [
+        "Yassime@outlook.com"
+    ],
+    "Etage": [
+        ""
+    ],
+    "Etat": [
+        "Ouvert"
+    ],
+    "Exp1AccordCadre": [
+        ""
+    ],
+    "Exp1Adresse1": [
+        ""
+    ],
+    "Exp1Adresse2": [
+        ""
+    ],
+    "Exp1Adresse3": [
+        ""
+    ],
+    "Exp1AssistEmail": [
+        ""
+    ],
+    "Exp1AssistNomPrenom": [
+        ""
+    ],
+    "Exp1AssistPrefixe": [
+        ""
+    ],
+    "Exp1AssistPrenom": [
+        ""
+    ],
+    "Exp1AssistTeP": [
+        ""
+    ],
+    "Exp1AssistTel": [
+        ""
+    ],
+    "Exp1CP": [
+        ""
+    ],
+    "Exp1CPrefixe": [
+        ""
+    ],
+    "Exp1CResponsable": [
+        ""
+    ],
+    "Exp1CabExpertiseCPrefixe": [
+        ""
+    ],
+    "Exp1CabExpertiseCResponsable": [
+        ""
+    ],
+    "Exp1CabExpertiseId": [
+        ""
+    ],
+    "Exp1CabExpertiseSigle": [
+        ""
+    ],
+    "Exp1Comment": [
+        ""
+    ],
+    "Exp1Email": [
+        ""
+    ],
+    "Exp1Id": [
+        ""
+    ],
+    "Exp1NomPrenom": [
+        ""
+    ],
+    "Exp1Prefixe": [
+        ""
+    ],
+    "Exp1Prenom": [
+        ""
+    ],
+    "Exp1RaisonSociale": [
+        ""
+    ],
+    "Exp1RedevanceCom": [
+        "0"
+    ],
+    "Exp1Reference": [
+        ""
+    ],
+    "Exp1Sigle": [
+        ""
+    ],
+    "Exp1TeP": [
+        ""
+    ],
+    "Exp1Tel": [
+        ""
+    ],
+    "Exp1Ville": [
+        ""
+    ],
+    "Exp2AccordCadre": [
+        ""
+    ],
+    "Exp2Adresse1": [
+        ""
+    ],
+    "Exp2Adresse2": [
+        ""
+    ],
+    "Exp2Adresse3": [
+        ""
+    ],
+    "Exp2AssistEmail": [
+        ""
+    ],
+    "Exp2AssistNomPrenom": [
+        ""
+    ],
+    "Exp2AssistPrefixe": [
+        ""
+    ],
+    "Exp2AssistPrenom": [
+        ""
+    ],
+    "Exp2AssistTeP": [
+        ""
+    ],
+    "Exp2AssistTel": [
+        ""
+    ],
+    "Exp2CP": [
+        ""
+    ],
+    "Exp2CPrefixe": [
+        ""
+    ],
+    "Exp2CResponsable": [
+        ""
+    ],
+    "Exp2CabExpertiseCPrefixe": [
+        ""
+    ],
+    "Exp2CabExpertiseCResponsable": [
+        ""
+    ],
+    "Exp2CabExpertiseId": [
+        ""
+    ],
+    "Exp2CabExpertiseSigle": [
+        ""
+    ],
+    "Exp2Comment": [
+        ""
+    ],
+    "Exp2Email": [
+        ""
+    ],
+    "Exp2Id": [
+        ""
+    ],
+    "Exp2NomPrenom": [
+        ""
+    ],
+    "Exp2Prefixe": [
+        ""
+    ],
+    "Exp2Prenom": [
+        ""
+    ],
+    "Exp2RaisonSociale": [
+        ""
+    ],
+    "Exp2RedevanceCom": [
+        "0"
+    ],
+    "Exp2Reference": [
+        ""
+    ],
+    "Exp2Sigle": [
+        ""
+    ],
+    "Exp2TeP": [
+        ""
+    ],
+    "Exp2Tel": [
+        ""
+    ],
+    "Exp2Ville": [
+        ""
+    ],
+    "Fax": [
+        ""
+    ],
+    "ForcerCreationAgenceClientGard": [
+        ""
+    ],
+    "ForcerCreationAgenceClientGest": [
+        ""
+    ],
+    "ForcerCreationClient": [
+        "0"
+    ],
+    "HBGroupe": [
+        ""
+    ],
+    "HauteurFenetreNormale": [
+        "866.66666666667"
+    ],
+    "Id": [
+        "118"
+    ],
+    "IdDossier": [
+        ""
+    ],
+    "IdMysqlElementCourant": [
+        "118"
+    ],
+    "Immeuble": [
+        ""
+    ],
+    "Instructions": [
+        "Instrucionsss"
+    ],
+    "IntFax": [
+        ""
+    ],
+    "IntLivrContact": [
+        ""
+    ],
+    "IntLivrDeuxMail": [
+        ""
+    ],
+    "IntLivrMail": [
+        ""
+    ],
+    "IntLivrPrefixe": [
+        ""
+    ],
+    "IntPortLivr": [
+        ""
+    ],
+    "IntTLivr": [
+        ""
+    ],
+    "IsFranchise": [
+        ""
+    ],
+    "IsTVA": [
+        ""
+    ],
+    "LargeurFenetreNormale": [
+        "1333.3333333333"
+    ],
+    "LivrContact": [
+        ""
+    ],
+    "LivrDeuxMail": [
+        ""
+    ],
+    "LivrDifferente": [
+        "ADRESSE_CLIENT"
+    ],
+    "LivrMail": [
+        "Yassime@outlook.com"
+    ],
+    "LivrPrefixe": [
+        ""
+    ],
+    "MoDeAfFiChAgE": [
+        ""
+    ],
+    "ModReception": [
+        ""
+    ],
+    "MontFranchise": [
+        "0.00"
+    ],
+    "NbDocClas": [
+        "0"
+    ],
+    "NoClient": [
+        "9"
+    ],
+    "NoDocument": [
+        "En cours..."
+    ],
+    "NoLogement": [
+        ""
+    ],
+    "NoMfOrMuLaIrE": [
+        "FenetreElement"
+    ],
+    "NoPolice": [
+        ""
+    ],
+    "NoSinistre": [
+        ""
+    ],
+    "NomLivr": [
+        "PARIS HABITAT"
+    ],
+    "NomPrenom": [
+        "PARIS HABITAT"
+    ],
+    "NomRisque": [
+        "PARIS HABITAT - Avenue michel bizot Avenue michel bizot 75001 Paris"
+    ],
+    "OrigineDossier": [
+        ""
+    ],
+    "Pays": [
+        ""
+    ],
+    "PlatefAccordCadre": [
+        ""
+    ],
+    "PlatefAdresse1": [
+        ""
+    ],
+    "PlatefAdresse2": [
+        ""
+    ],
+    "PlatefAdresse3": [
+        ""
+    ],
+    "PlatefCP": [
+        ""
+    ],
+    "PlatefCPrefixe": [
+        ""
+    ],
+    "PlatefCResponsable": [
+        ""
+    ],
+    "PlatefComment": [
+        ""
+    ],
+    "PlatefDatReception": [
+        ""
+    ],
+    "PlatefEmail": [
+        ""
+    ],
+    "PlatefGestAdresse1": [
+        ""
+    ],
+    "PlatefGestAdresse2": [
+        ""
+    ],
+    "PlatefGestCP": [
+        ""
+    ],
+    "PlatefGestEmail": [
+        ""
+    ],
+    "PlatefGestNomPrenom": [
+        ""
+    ],
+    "PlatefGestPrefixe": [
+        ""
+    ],
+    "PlatefGestPrenom": [
+        ""
+    ],
+    "PlatefGestTeP": [
+        ""
+    ],
+    "PlatefGestTel": [
+        ""
+    ],
+    "PlatefGestVille": [
+        ""
+    ],
+    "PlatefId": [
+        ""
+    ],
+    "PlatefNoDossier": [
+        ""
+    ],
+    "PlatefRaisonSociale": [
+        ""
+    ],
+    "PlatefRedevanceCom": [
+        "0"
+    ],
+    "PlatefSigle": [
+        ""
+    ],
+    "PlatefTeP": [
+        ""
+    ],
+    "PlatefTel": [
+        ""
+    ],
+    "PlatefVille": [
+        ""
+    ],
+    "PortLivr": [
+        ""
+    ],
+    "Prefixe": [
+        ""
+    ],
+    "ProtectEntree": [
+        ""
+    ],
+    "ReducTVA": [
+        "OUI"
+    ],
+    "RefCommandeClient": [
+        ""
+    ],
+    "Reference": [
+        ""
+    ],
+    "RegionUP": [
+        "Grand-Ouest"
+    ],
+    "Responsable": [
+        "CONDAMINES Caroline"
+    ],
+    "RisqueComAcces": [
+        ""
+    ],
+    "SigChargeRecon": [
+        ""
+    ],
+    "Sigle": [
+        "CCO"
+    ],
+    "SiteInt": [
+        ""
+    ],
+    "TContacts": [
+        "EnTeTe:ClE_InTeRnE¤NomPrenom¤Prefixe¤Service¤Telephone¤Fax¤TelP¤Email¤str_LigneContact"
+    ],
+    "TInterlocuteurs": [
+        ""
+    ],
+    "TLivr": [
+        ""
+    ],
+    "TVAIntra": [
+        ""
+    ],
+    "TeP": [
+        ""
+    ],
+    "Tel": [
+        ""
+    ],
+    "TotalHTC": [
+        "0.00"
+    ],
+    "TotalHTD": [
+        "0.00"
+    ],
+    "TotalHTF": [
+        "0.00"
+    ],
+    "TotalTTCD": [
+        "0.00"
+    ],
+    "TotalTVAD": [
+        "0.00"
+    ],
+    "TypBatiment": [
+        ""
+    ],
+    "TypeClient": [
+        "Collectivité"
+    ],
+    "TypeSinistre": [
+        "Autres sinistres"
+    ],
+    "UGLocataire": [
+        ""
+    ],
+    "UserMaj": [
+        "unipromotion.berthier"
+    ],
+    "UtilCreation": [
+        "Berthier Fabien"
+    ],
+    "UtilReception": [
+        "Berthier Fabien"
+    ],
+    "Utilisateur": [
+        "unipromotion.berthier"
+    ],
+    "VilLivr": [
+        "Paris"
+    ],
+    "Ville": [
+        "Paris"
+    ]
+}

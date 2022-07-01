@@ -1,0 +1,3837 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+        },
+        "curies": {
+            "name": "iwe",
+            "href": "/api/docs/resources/{rel}.md",
+            "templated": true
+        },
+        "iwe:definition": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Case"
+        },
+        "mandator": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839896"
+        },
+        "payer": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839896"
+        },
+        "appointments": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Appointment?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "riskContact": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5e203911c8873f001850de7f"
+        },
+        "riskContactInterlocuteur": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5e2039129fe468001853600b"
+        },
+        "quotes": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote?q=%7B%22relatedCase._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "invoices": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice?q=%7B%22relatedCase._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "preProductions": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/PreProduction?q=%7B%22relatedCase._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "constructionsSite": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/ConstructionSite?q=%7B%22relatedCase._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "unindexedEmails": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "phoneCalls": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "address": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/address"
+        },
+        "customerAddress": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerAddress"
+        },
+        "customerWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerWizard"
+        },
+        "customerContactWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerContactWizard"
+        },
+        "riskContactWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactWizard"
+        },
+        "riskContactInterlocuteurWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactInterlocuteurWizard"
+        },
+        "insurerWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerWizard"
+        },
+        "insurerContactWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerContactWizard"
+        },
+        "expertCompanyWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyWizard"
+        },
+        "expertCompanyContactWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyContactWizard"
+        },
+        "platformWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformWizard"
+        },
+        "platformContactWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformContactWizard"
+        },
+        "upOfficeWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upOfficeWizard"
+        },
+        "upResponsableWizard": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upResponsableWizard"
+        },
+        "setup": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/setup"
+        },
+        "pendings": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/pendings"
+        },
+        "recognitions": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions"
+        },
+        "relatedObjects": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/relatedObjects"
+        },
+        "rooms": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/rooms"
+        },
+        "activities": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities"
+        },
+        "wizards": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/wizards"
+        },
+        "folders": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/folders"
+        },
+        "documents": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents"
+        },
+        "participants": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants"
+        },
+        "comments": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/comments"
+        },
+        "email": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo.rootId%22%3A%7B%22%24id%22%3A%225e203654f22e45001a839800%22%7D%7D"
+        },
+        "iwe:communications": {
+            "href": "/api/communications/5dfa7a9d6bd6db00188af000?rootId=5e203654f22e45001a839800&rootDef=Case"
+        },
+        "iwe:audit-log": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/audit-log"
+        },
+        "iwe:sharing": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/_sharing"
+        },
+        "iwe:refs": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/_refs/{ref}",
+            "templated": true
+        },
+        "iwe:trash": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/trash"
+        },
+        "iwe:freeze": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/freeze"
+        }
+    },
+    "_embedded": {
+        "address": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/address"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                }
+            },
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    2.3695483,
+                    48.8676149
+                ]
+            },
+            "address": "100 Rue de la Folie Méricourt",
+            "additionalAddressLevel1": null,
+            "additionalAddressLevel2": null,
+            "city": "Paris",
+            "postal_code": "75011",
+            "country": "Fr",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:10.346Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839838"
+            },
+            "version": 2,
+            "_label": "100 Rue de la Folie Méricourt 75011 Paris Fr",
+            "_meta": {},
+            "_resourcePath": "/case/Case/address"
+        },
+        "customerAddress": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerAddress"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                }
+            },
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    2.3695483,
+                    48.8676149
+                ]
+            },
+            "address": "100 Rue de la Folie Méricourt",
+            "additionalAddressLevel1": null,
+            "additionalAddressLevel2": null,
+            "city": "Paris",
+            "postal_code": "75011",
+            "country": "Fr",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:10.817Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a83983a"
+            },
+            "version": 2,
+            "_label": "100 Rue de la Folie Méricourt 75011 Paris Fr",
+            "_meta": {},
+            "_resourcePath": "/case/Case/customerAddress"
+        },
+        "customerWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "acteur": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5e2039122445100018f5d89c"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerWizard"
+                        }
+                    },
+                    "location": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.3695483,
+                            48.8676149
+                        ]
+                    },
+                    "address": "100 Rue de la Folie Méricourt",
+                    "additionalAddressLevel1": null,
+                    "additionalAddressLevel2": null,
+                    "city": "Paris",
+                    "postal_code": "75011",
+                    "country": "Fr",
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "modifiedBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "dateModified": {
+                        "$date": "2020-01-16T10:14:51.475Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839840"
+                    },
+                    "version": 2,
+                    "_label": "100 Rue de la Folie Méricourt 75011 Paris Fr",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/customerWizard/address"
+                }
+            },
+            "type": "1",
+            "createContact": true,
+            "title": "ms",
+            "firstName": "Severine",
+            "lastName": "Deluc",
+            "isValid": "Deluc",
+            "nameIsNeeded": false,
+            "email": "delucseverine@gmail.com",
+            "phone_1": "+33649831428",
+            "phone_2": "+33950225149",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:08.398Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a83983c"
+            },
+            "version": 3,
+            "_meta": {},
+            "_resourcePath": "/case/Case/customerWizard"
+        },
+        "customerContactWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerContactWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerContactWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerContactWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/customerContactWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839846"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/customerContactWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839842"
+            },
+            "version": 1,
+            "_meta": {},
+            "_resourcePath": "/case/Case/customerContactWizard"
+        },
+        "riskContactWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "acteur": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5e203911c8873f001850de7f"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactWizard"
+                        }
+                    },
+                    "location": {
+                        "type": "Point",
+                        "coordinates": [
+                            2.3695483,
+                            48.8676149
+                        ]
+                    },
+                    "address": "100 Rue de la Folie Méricourt",
+                    "additionalAddressLevel1": null,
+                    "additionalAddressLevel2": null,
+                    "city": "Paris",
+                    "postal_code": "75011",
+                    "country": "Fr",
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "modifiedBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "dateModified": {
+                        "$date": "2020-01-16T10:15:53.056Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a83984c"
+                    },
+                    "version": 2,
+                    "_label": "100 Rue de la Folie Méricourt 75011 Paris Fr",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/riskContactWizard/address"
+                }
+            },
+            "type": "1",
+            "title": "ms",
+            "firstName": "Severine",
+            "lastName": "Deluc",
+            "isValid": "Deluc",
+            "nameIsNeeded": false,
+            "email": "delucseverine@gmail.com",
+            "phone_1": "+33649831428",
+            "phone_2": "+33950225149",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:08.493Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839848"
+            },
+            "version": 3,
+            "_meta": {},
+            "_resourcePath": "/case/Case/riskContactWizard"
+        },
+        "riskContactInterlocuteurWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactInterlocuteurWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "acteur": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5e2039129fe468001853600b"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactInterlocuteurWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactInterlocuteurWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/riskContactInterlocuteurWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839852"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/riskContactInterlocuteurWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:08.584Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a83984e"
+            },
+            "version": 3,
+            "_meta": {},
+            "_resourcePath": "/case/Case/riskContactInterlocuteurWizard"
+        },
+        "insurerWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "acteur": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/5dfcf8f43a390f0049bbb836"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839858"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/insurerWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:08.982Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839854"
+            },
+            "version": 3,
+            "_meta": {},
+            "_resourcePath": "/case/Case/insurerWizard"
+        },
+        "insurerContactWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerContactWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerContactWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerContactWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/insurerContactWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a83985e"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/insurerContactWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a83985a"
+            },
+            "version": 1,
+            "_meta": {},
+            "_resourcePath": "/case/Case/insurerContactWizard"
+        },
+        "expertCompanyWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839864"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/expertCompanyWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839860"
+            },
+            "version": 1,
+            "_meta": {},
+            "_resourcePath": "/case/Case/expertCompanyWizard"
+        },
+        "expertCompanyContactWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyContactWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyContactWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyContactWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/expertCompanyContactWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a83986a"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/expertCompanyContactWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839866"
+            },
+            "version": 1,
+            "_meta": {},
+            "_resourcePath": "/case/Case/expertCompanyContactWizard"
+        },
+        "platformWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839870"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/platformWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a83986c"
+            },
+            "version": 1,
+            "_meta": {},
+            "_resourcePath": "/case/Case/platformWizard"
+        },
+        "platformContactWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformContactWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformContactWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformContactWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/platformContactWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839876"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/platformContactWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839872"
+            },
+            "version": 1,
+            "_meta": {},
+            "_resourcePath": "/case/Case/platformContactWizard"
+        },
+        "upOfficeWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upOfficeWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "acteur": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/5dfcf8ae58c0a80017a4f22d"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upOfficeWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upOfficeWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upOfficeWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a83987c"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/upOfficeWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:00.872Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839878"
+            },
+            "version": 2,
+            "_meta": {},
+            "_resourcePath": "/case/Case/upOfficeWizard"
+        },
+        "upResponsableWizard": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upResponsableWizard"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseContact"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "acteur": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5dfcf8ccbd26810018d58de0"
+                },
+                "address": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upResponsableWizard/address"
+                }
+            },
+            "_embedded": {
+                "address": {
+                    "_links": {
+                        "self": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upResponsableWizard/address"
+                        },
+                        "curies": {
+                            "name": "iwe",
+                            "href": "/api/docs/resources/{rel}.md",
+                            "templated": true
+                        },
+                        "iwe:definition": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-PostalAddress"
+                        },
+                        "iwe:case": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "iwe:self-parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/upResponsableWizard"
+                        }
+                    },
+                    "createdBy": {
+                        "$id": "5dfcf8cc6bd6db00188c9aaf"
+                    },
+                    "dateCreated": {
+                        "$date": "2020-01-16T10:09:24.325Z"
+                    },
+                    "_id": {
+                        "$id": "5e203654f22e45001a839882"
+                    },
+                    "version": 1,
+                    "_label": "",
+                    "_meta": {},
+                    "_resourcePath": "/case/Case/upResponsableWizard/address"
+                }
+            },
+            "type": "1",
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:01.005Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a83987e"
+            },
+            "version": 2,
+            "_meta": {},
+            "_resourcePath": "/case/Case/upResponsableWizard"
+        },
+        "setup": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/setup"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                },
+                "iwe:definition": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Setup"
+                },
+                "iwe:case": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                },
+                "iwe:self-parent": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                }
+            },
+            "metiers": [
+                "professionRDF"
+            ],
+            "professionRDF": true,
+            "createdBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "modifiedBy": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "dateCreated": {
+                "$date": "2020-01-16T10:09:24.325Z"
+            },
+            "dateModified": {
+                "$date": "2020-01-16T10:21:01.130Z"
+            },
+            "_id": {
+                "$id": "5e203654f22e45001a839884"
+            },
+            "version": 2,
+            "_meta": {},
+            "_resourcePath": "/case/Case/setup"
+        },
+        "pendings": [],
+        "recognitions": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Recognition"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "producedBy": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839890"
+                    },
+                    "photos": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/{id}",
+                        "templated": true
+                    },
+                    "relatedAppointment": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Appointment/5e2039219fe46800185360a8"
+                    },
+                    "lines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a/lines"
+                    },
+                    "reconnaissanceWaterInfo": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a/reconnaissanceWaterInfo"
+                    },
+                    "reconnaissanceElectricityInfo": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a/reconnaissanceElectricityInfo"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a/comments"
+                    }
+                },
+                "_embedded": {
+                    "lines": [],
+                    "reconnaissanceWaterInfo": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a/reconnaissanceWaterInfo"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            },
+                            "iwe:definition": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/ReconnaissanceWaterInfo"
+                            },
+                            "iwe:case": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                            },
+                            "iwe:self-parent": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a"
+                            }
+                        },
+                        "wateringHose": 0,
+                        "createdBy": {
+                            "$id": "5dfcf8cc6bd6db00188c9aaf"
+                        },
+                        "dateCreated": {
+                            "$date": "2020-01-16T10:21:21.073Z"
+                        },
+                        "_id": {
+                            "$id": "5e203920d6a8c70046fee45b"
+                        },
+                        "version": 1,
+                        "_meta": {},
+                        "_resourcePath": "/case/Case/recognitions/reconnaissanceWaterInfo"
+                    },
+                    "reconnaissanceElectricityInfo": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a/reconnaissanceElectricityInfo"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            },
+                            "iwe:definition": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/ReconnaissanceElectricityInfo"
+                            },
+                            "iwe:case": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                            },
+                            "iwe:self-parent": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a"
+                            }
+                        },
+                        "extension": 0,
+                        "createdBy": {
+                            "$id": "5dfcf8cc6bd6db00188c9aaf"
+                        },
+                        "dateCreated": {
+                            "$date": "2020-01-16T10:21:21.073Z"
+                        },
+                        "_id": {
+                            "$id": "5e203920d6a8c70046fee45d"
+                        },
+                        "version": 1,
+                        "_meta": {},
+                        "_resourcePath": "/case/Case/recognitions/reconnaissanceElectricityInfo"
+                    },
+                    "comments": []
+                },
+                "_label": "Severine Deluc / Severine Deluc / 75011 Paris",
+                "ref": "Severine Deluc / Severine Deluc / 75011 Paris",
+                "refCase": "2002207",
+                "status": "terminated",
+                "statusRDV": "terminated",
+                "nettoyage": false,
+                "mobilier": false,
+                "textile": false,
+                "deblais": false,
+                "workloadEstimateDeco": 0,
+                "workloadEstimateTex": 0,
+                "rdfCordiste": "no",
+                "rdfNacelle": "no",
+                "rdfChauffage": "no",
+                "rdfTech2": "no",
+                "rdfJour": "no",
+                "rdfReferent": "no",
+                "rdfLongDistance": "no",
+                "rdfDispo": "yes",
+                "rdfComment": "sdb // Peut-être la tuyauterie de la baignoire",
+                "producedDate": null,
+                "professionDecontamination": null,
+                "professionRDF": true,
+                "professionDewatering": null,
+                "professionPurification": null,
+                "professionTextile": null,
+                "profession3DPunaise": false,
+                "professionRenovation": null,
+                "professionAsbestosRemoval": null,
+                "metiers": [
+                    "professionRDF"
+                ],
+                "labelForfait": "Contrôle hygrométrique pour une durée de  jour(s)",
+                "labelForfaitWeek": "Contrôle hygrométrique pour 1 Semaine supplémentaire",
+                "forfaitHygroQ": 1,
+                "totalHygroHT": 0,
+                "totalHygroConso": 0,
+                "totalHygroConsoExtraWeek": 0,
+                "totalHygroHTExtraWeek": 0,
+                "nbTextile": 0,
+                "nbTextileUrgent": 0,
+                "nbTextileNotUrgent": 0,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfa7ca29565bc001a3f78c5"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:21:21.072Z"
+                },
+                "dateModified": {
+                    "$date": "2020-07-20T11:29:12.400Z"
+                },
+                "_id": {
+                    "$id": "5e203920d6a8c70046fee45a"
+                },
+                "version": 7,
+                "producedBy": {
+                    "$id": "5e203654f22e45001a839890"
+                },
+                "selectedRoom": null,
+                "photos": [],
+                "_meta": {},
+                "_resourcePath": "/case/Case/recognitions"
+            }
+        ],
+        "relatedObjects": [],
+        "rooms": [],
+        "activities": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Activity"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "tasks": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2/tasks"
+                    },
+                    "milestones": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2/milestones"
+                    }
+                },
+                "_embedded": {
+                    "tasks": [],
+                    "milestones": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2/milestones/5e203654f22e45001a8398a3"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Milestone"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                }
+                            },
+                            "name": "Saisie dossier",
+                            "achieved": true,
+                            "achievedDate": {
+                                "$date": "2020-01-16T10:21:09.600Z"
+                            },
+                            "cause": "ACHIEVER_OPENED",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398a3"
+                            },
+                            "_meta": {}
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2/milestones/5e203654f22e45001a8398a4"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Milestone"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                }
+                            },
+                            "name": "Affecté au responsable de dossier",
+                            "achieved": true,
+                            "achievedDate": {
+                                "$date": "2020-01-16T10:21:07.789Z"
+                            },
+                            "cause": "ACHIEVER_OPENED",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398a4"
+                            },
+                            "_meta": {}
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2/milestones/5e203654f22e45001a8398a5"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Milestone"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                }
+                            },
+                            "name": "Affecté a ADV",
+                            "achieved": true,
+                            "achievedDate": {
+                                "$date": "2020-01-16T10:24:17.173Z"
+                            },
+                            "cause": "ACHIEVER_OPENED",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398a5"
+                            },
+                            "_meta": {}
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2/milestones/5e203654f22e45001a8398a6"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Milestone"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                }
+                            },
+                            "name": "Mandant sélectionné",
+                            "achieved": true,
+                            "achievedDate": {
+                                "$date": "2020-01-16T10:21:01.321Z"
+                            },
+                            "cause": "ACHIEVER_OPENED",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398a6"
+                            },
+                            "_meta": {}
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2/milestones/5e203654f22e45001a8398a7"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Milestone"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                }
+                            },
+                            "name": "Affecté au gestionnaire de production",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398a7"
+                            },
+                            "_meta": {}
+                        }
+                    ]
+                },
+                "name": "Gestion du dossier",
+                "state": "ACTIVE",
+                "root": true,
+                "cause": "INITIAL",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.362Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a8398a2"
+                },
+                "version": 1,
+                "parent": null,
+                "_meta": {},
+                "_resourcePath": "/case/Case/activities"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a8"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Activity"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2"
+                    },
+                    "tasks": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a8/tasks"
+                    },
+                    "milestones": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a8/milestones"
+                    }
+                },
+                "_embedded": {
+                    "tasks": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a8/tasks/5e203654f22e45001a8398ac"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "relatedDocuments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/{id}",
+                                    "templated": true
+                                },
+                                "approvers": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/{id}",
+                                    "templated": true
+                                },
+                                "contributors": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/{id}",
+                                    "templated": true
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398ac%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398ac%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a8/tasks/5e203654f22e45001a8398ac/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a8/tasks/5e203654f22e45001a8398ac/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a8/tasks/5e203654f22e45001a8398ac/comments"
+                                }
+                            },
+                            "_embedded": {
+                                "approvals": [],
+                                "checklists": [],
+                                "comments": []
+                            },
+                            "name": "Ouverture du dossier",
+                            "cause": "INITIAL",
+                            "state": "TERMINATED",
+                            "activeDate": {
+                                "$date": "2020-01-16T10:09:27.525Z"
+                            },
+                            "terminatedDate": {
+                                "$date": "2020-01-16T10:21:04.700Z"
+                            },
+                            "subject": "Saisie du dossier",
+                            "dueDate": {
+                                "$date": "2020-01-17T10:09:24.329Z"
+                            },
+                            "submitted": false,
+                            "pending": false,
+                            "_wizardState": {
+                                "page": 6,
+                                "visitedPages": [
+                                    0,
+                                    1,
+                                    2,
+                                    3,
+                                    5,
+                                    6
+                                ],
+                                "validPages": [
+                                    0,
+                                    1,
+                                    2,
+                                    3,
+                                    5,
+                                    6
+                                ],
+                                "lastPage": 6,
+                                "finished": true
+                            },
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "modifiedBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:09:24.362Z"
+                            },
+                            "dateModified": {
+                                "$date": "2020-01-16T10:21:04.709Z"
+                            },
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398ac"
+                            },
+                            "version": 5,
+                            "relatedDocuments": [],
+                            "owner": null,
+                            "approvers": [],
+                            "contributors": [],
+                            "relatedData": [],
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        }
+                    ],
+                    "milestones": []
+                },
+                "name": "Ouverture",
+                "state": "TERMINATED",
+                "activeDate": {
+                    "$date": "2020-01-16T10:09:27.525Z"
+                },
+                "terminatedDate": {
+                    "$date": "2020-01-16T10:21:04.700Z"
+                },
+                "cause": "CHILDREN_TERMINATION",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.362Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a8398a8"
+                },
+                "version": 1,
+                "parent": {
+                    "$id": "5e203654f22e45001a8398a2"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/activities"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Activity"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2"
+                    },
+                    "tasks": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks"
+                    },
+                    "milestones": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/milestones"
+                    }
+                },
+                "_embedded": {
+                    "tasks": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ad"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398ad%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398ad%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ad/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ad/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ad/comments"
+                                }
+                            },
+                            "name": "Prise de RDV reconnaissance / Qualification",
+                            "state": "ENABLED",
+                            "subject": "Prise de RDV reconnaissance / Qualification",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398ad"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ae"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398ae%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398ae%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ae/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ae/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a9/tasks/5e203654f22e45001a8398ae/comments"
+                                }
+                            },
+                            "name": "Reconnaissance",
+                            "state": "ENABLED",
+                            "subject": "Reconnaissance complète",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398ae"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        }
+                    ],
+                    "milestones": []
+                },
+                "name": "Reconnaissance",
+                "state": "PLANNED",
+                "cause": "INITIAL",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.362Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a8398a9"
+                },
+                "version": 1,
+                "parent": {
+                    "$id": "5e203654f22e45001a8398a2"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/activities"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Activity"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2"
+                    },
+                    "tasks": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks"
+                    },
+                    "milestones": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/milestones"
+                    }
+                },
+                "_embedded": {
+                    "tasks": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398af"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398af%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398af%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398af/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398af/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398af/comments"
+                                }
+                            },
+                            "name": "Construction devis",
+                            "state": "ENABLED",
+                            "subject": "Construction devis",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398af"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b0"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b0%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b0%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b0/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b0/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b0/comments"
+                                }
+                            },
+                            "name": "Emission devis",
+                            "state": "ENABLED",
+                            "subject": "Emission devis",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398b0"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b1"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b1%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b1%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b1/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b1/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398aa/tasks/5e203654f22e45001a8398b1/comments"
+                                }
+                            },
+                            "name": "Retour devis",
+                            "state": "ENABLED",
+                            "subject": "Retour devis",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398b1"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        }
+                    ],
+                    "milestones": []
+                },
+                "name": "Devis",
+                "state": "PLANNED",
+                "cause": "INITIAL",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.362Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a8398aa"
+                },
+                "version": 1,
+                "parent": {
+                    "$id": "5e203654f22e45001a8398a2"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/activities"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Activity"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398a2"
+                    },
+                    "tasks": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks"
+                    },
+                    "milestones": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/milestones"
+                    }
+                },
+                "_embedded": {
+                    "tasks": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e601070a734da001a7722a6"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "owner": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839892"
+                                },
+                                "approvers": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/{id}",
+                                    "templated": true
+                                },
+                                "contributors": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/{id}",
+                                    "templated": true
+                                },
+                                "relatedDocuments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/{id}",
+                                    "templated": true
+                                },
+                                "ownerContact": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5dfcf8cd6bd6db00188c9adf"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e601070a734da001a7722a6%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e601070a734da001a7722a6%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e601070a734da001a7722a6/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e601070a734da001a7722a6/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e601070a734da001a7722a6/comments"
+                                }
+                            },
+                            "_embedded": {
+                                "approvals": [],
+                                "checklists": [],
+                                "comments": []
+                            },
+                            "name": "Organisation chantier(s)",
+                            "cause": "SKIPPED",
+                            "state": "TERMINATED",
+                            "plannedDate": {
+                                "$date": "2020-03-04T20:32:49.602Z"
+                            },
+                            "terminatedDate": {
+                                "$date": "2020-08-12T07:19:48.379Z"
+                            },
+                            "subject": "Organisation chantier(s)",
+                            "dueDate": {
+                                "$date": "2020-03-05T20:32:48.774Z"
+                            },
+                            "submitted": false,
+                            "pending": false,
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aa9"
+                            },
+                            "createdByPartner": {
+                                "$id": "5dfa7a9d6bd6db00188aefef"
+                            },
+                            "modifiedBy": {
+                                "$id": "5dfcf8cd6bd6db00188c9adf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-04T20:32:48.780Z"
+                            },
+                            "dateModified": {
+                                "$date": "2020-08-12T07:19:48.539Z"
+                            },
+                            "_id": {
+                                "$id": "5e601070a734da001a7722a6"
+                            },
+                            "version": 2,
+                            "owner": {
+                                "$id": "5e203654f22e45001a839892"
+                            },
+                            "approvers": [],
+                            "contributors": [
+                                {
+                                    "$id": "5e203654f22e45001a839892"
+                                }
+                            ],
+                            "relatedData": [],
+                            "relatedDocuments": [],
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b2"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b2%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b2%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b2/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b2/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b2/comments"
+                                }
+                            },
+                            "name": "Transfert en production",
+                            "state": "ENABLED",
+                            "subject": "Transfert en production",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398b2"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b3"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b3%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b3%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b3/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b3/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b3/comments"
+                                }
+                            },
+                            "name": "Organisation chantier(s)",
+                            "state": "ENABLED",
+                            "subject": "Organisation chantier(s)",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398b3"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b4"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Task"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "email": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-Email?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b4%22%7D%7D"
+                                },
+                                "phoneCall": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/iwe-PhoneCall?q=%7B%22relatedTo._id%22%3A%7B%22%24id%22%3A%225e203654f22e45001a8398b4%22%7D%7D"
+                                },
+                                "approvals": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b4/approvals"
+                                },
+                                "checklists": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b4/checklists"
+                                },
+                                "comments": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/activities/5e203654f22e45001a8398ab/tasks/5e203654f22e45001a8398b4/comments"
+                                }
+                            },
+                            "name": "Démarrage chantier",
+                            "state": "ENABLED",
+                            "subject": "Démarrage chantier",
+                            "_id": {
+                                "$id": "5e203654f22e45001a8398b4"
+                            },
+                            "_meta": {},
+                            "approverContacts": [],
+                            "contributorContacts": [],
+                            "_resourcePath": "/case/Case/activities/tasks"
+                        }
+                    ],
+                    "milestones": []
+                },
+                "name": "Production",
+                "state": "ACTIVE",
+                "activeDate": {
+                    "$date": "2020-03-04T20:32:49.602Z"
+                },
+                "cause": "CHILDREN_ACTIVATION",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.362Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a8398ab"
+                },
+                "version": 1,
+                "parent": {
+                    "$id": "5e203654f22e45001a8398a2"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/activities"
+            }
+        ],
+        "wizards": [],
+        "folders": [],
+        "documents": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Document"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "headVersion": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02/fileVersions/5e20399b2445100018f5da05"
+                    },
+                    "fileVersions": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02/fileVersions"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02/comments"
+                    },
+                    "iwe:content": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02/content"
+                    },
+                    "iwe:content-url": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02/content-url"
+                    },
+                    "iwe:copy": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02/copy"
+                    }
+                },
+                "_embedded": {
+                    "fileVersions": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02/fileVersions/5e20399b2445100018f5da05"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-FileVersion"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e20399b2445100018f5da02"
+                                }
+                            },
+                            "versionNumber": 1,
+                            "file_id": "fd228d88-5a55-43c2-9afc-1b13a3be7a8a",
+                            "length": 67211,
+                            "mimeType": "application/pdf",
+                            "filename": "ORDRE_DE_MISSION_ES (75).pdf",
+                            "meta": {
+                                "storage": "s3",
+                                "md5": "7174c5694006d2fd8bfc152395c7b66b",
+                                "mime-type": "application/pdf",
+                                "date": "2020-01-16T10:23:23.019Z",
+                                "case-id": "5e203654f22e45001a839800",
+                                "document-version": "1",
+                                "document-id": "5e20399b2445100018f5da02",
+                                "bucket": "iwe-documents-prod",
+                                "key": "5dfa7a9d6bd6db00188af000/fd228d88-5a55-43c2-9afc-1b13a3be7a8a"
+                            },
+                            "hash": "7174c5694006d2fd8bfc152395c7b66b",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:23:23.267Z"
+                            },
+                            "_id": {
+                                "$id": "5e20399b2445100018f5da05"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Case/documents/fileVersions"
+                        }
+                    ],
+                    "comments": []
+                },
+                "acknowledged": true,
+                "name": "ORDRE_DE_MISSION_ES (75).pdf",
+                "fileDate": {
+                    "$date": "2020-01-16T10:23:23.019Z"
+                },
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc3a390f0049bbb786"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:23:23.267Z"
+                },
+                "dateModified": {
+                    "$date": "2020-02-05T14:16:35.666Z"
+                },
+                "_id": {
+                    "$id": "5e20399b2445100018f5da02"
+                },
+                "version": 2,
+                "relatedRoom": null,
+                "headVersion": {
+                    "$id": "5e20399b2445100018f5da05"
+                },
+                "_meta": {
+                    "storage": "s3"
+                },
+                "_resourcePath": "/case/Case/documents"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Document"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "headVersion": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/fileVersions/5e204944f5656e0018890113"
+                    },
+                    "_relatedTo": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "fileVersions": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/fileVersions"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/comments"
+                    },
+                    "iwe:content": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/content"
+                    },
+                    "iwe:content-url": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/content-url"
+                    },
+                    "iwe:copy": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/copy"
+                    }
+                },
+                "_embedded": {
+                    "fileVersions": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/fileVersions/5e2039a8d6a8c70046fee565"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-FileVersion"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d"
+                                }
+                            },
+                            "versionNumber": 1,
+                            "file_id": "b8b56a9e-2b74-46dc-88cf-aa7cda15e046",
+                            "length": 116797,
+                            "mimeType": "application/pdf",
+                            "filename": "UP2002207 - Severine Deluc / Severine Deluc / 75011 Paris Délégation.pdf",
+                            "meta": {
+                                "storage": "s3",
+                                "md5": "1c9b54c6ad78a21398940bbbd5e3f492",
+                                "mime-type": "application/pdf",
+                                "date": "2020-01-16T10:23:35.832Z",
+                                "case-id": "5e203654f22e45001a839800",
+                                "document-version": "1",
+                                "document-id": "5e2039a7d6a8c70046fee55d",
+                                "bucket": "iwe-documents-prod",
+                                "key": "5dfa7a9d6bd6db00188af000/b8b56a9e-2b74-46dc-88cf-aa7cda15e046"
+                            },
+                            "hash": "1c9b54c6ad78a21398940bbbd5e3f492",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:23:36.125Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039a8d6a8c70046fee565"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Case/documents/fileVersions"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d/fileVersions/5e204944f5656e0018890113"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-FileVersion"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e2039a7d6a8c70046fee55d"
+                                }
+                            },
+                            "versionNumber": 2,
+                            "file_id": "7f3d5b54-880f-413a-aea0-4e13d7820e7d",
+                            "length": 119160,
+                            "mimeType": "application/pdf",
+                            "filename": "Délégation.pdf",
+                            "meta": {
+                                "storage": "s3",
+                                "mime-type": "application/pdf",
+                                "date": "2020-01-16T11:30:12.511Z",
+                                "case-id": "5e203654f22e45001a839800",
+                                "document-version": "1",
+                                "document-id": "5e2039a7d6a8c70046fee55d",
+                                "bucket": "iwe-documents-prod",
+                                "key": "5dfa7a9d6bd6db00188af000/7f3d5b54-880f-413a-aea0-4e13d7820e7d"
+                            },
+                            "hash": "82ac18fc2adb9ae44608ae068d1566fb",
+                            "createdBy": {
+                                "$id": "5e1309433566e30098c1d393"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T11:30:12.767Z"
+                            },
+                            "_id": {
+                                "$id": "5e204944f5656e0018890113"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Case/documents/fileVersions"
+                        }
+                    ],
+                    "comments": []
+                },
+                "acknowledged": true,
+                "templateId": {
+                    "$id": "5dfa7bad5d6a500aa4ff0287"
+                },
+                "name": "UP2002207 - Severine Deluc / Severine Deluc / 75011 Paris Délégation",
+                "fileDate": {
+                    "$date": "2020-01-16T11:30:12.511Z"
+                },
+                "signaturesStatus": "signed",
+                "_userInput": {
+                    "parent": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800",
+                    "_links": {
+                        "parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        }
+                    }
+                },
+                "_anchorInput": {
+                    "parent": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800",
+                    "QUOTE": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26",
+                    "_links": {
+                        "parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                        },
+                        "QUOTE": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                        }
+                    }
+                },
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc3a390f0049bbb786"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:23:36.125Z"
+                },
+                "dateModified": {
+                    "$date": "2020-02-05T14:16:47.324Z"
+                },
+                "_id": {
+                    "$id": "5e2039a7d6a8c70046fee55d"
+                },
+                "version": 3,
+                "relatedRoom": null,
+                "headVersion": {
+                    "$id": "5e204944f5656e0018890113"
+                },
+                "_meta": {
+                    "storage": "s3"
+                },
+                "_resourcePath": "/case/Case/documents"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Document"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "headVersion": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274/fileVersions/5e3ac7b6ef55be0018382277"
+                    },
+                    "_relatedTo": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                    },
+                    "fileVersions": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274/fileVersions"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274/comments"
+                    },
+                    "iwe:content": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274/content"
+                    },
+                    "iwe:content-url": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274/content-url"
+                    },
+                    "iwe:copy": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274/copy"
+                    }
+                },
+                "_embedded": {
+                    "fileVersions": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274/fileVersions/5e3ac7b6ef55be0018382277"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/iwe-FileVersion"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/documents/5e3ac7b6ef55be0018382274"
+                                }
+                            },
+                            "versionNumber": 1,
+                            "file_id": "64019354-16e8-4cdc-8cc8-1ffc31c9ad2c",
+                            "length": 108415,
+                            "mimeType": "application/pdf",
+                            "filename": "Devis UP2002207-D1 - RDF - Severine Deluc / Severine Deluc / 75011 Paris.pdf",
+                            "meta": {
+                                "storage": "s3",
+                                "md5": "1ffda073f6e2f65fd0a3e54afd9dfc9c",
+                                "mime-type": "application/pdf",
+                                "date": "2020-02-05T13:48:38.399Z",
+                                "case-id": "5e203654f22e45001a839800",
+                                "document-version": "1",
+                                "document-id": "5e3ac7b6ef55be0018382274",
+                                "bucket": "iwe-documents-prod",
+                                "key": "5dfa7a9d6bd6db00188af000/64019354-16e8-4cdc-8cc8-1ffc31c9ad2c"
+                            },
+                            "hash": "1ffda073f6e2f65fd0a3e54afd9dfc9c",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:48:38.890Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac7b6ef55be0018382277"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Case/documents/fileVersions"
+                        }
+                    ],
+                    "comments": []
+                },
+                "type": "quote",
+                "acknowledged": true,
+                "templateId": {
+                    "$id": "5e04e22bcadbbe155c04797b"
+                },
+                "name": "Devis UP2002207-D1 - RDF - Severine Deluc / Severine Deluc / 75011 Paris",
+                "fileDate": {
+                    "$date": "2020-02-05T13:48:38.399Z"
+                },
+                "_userInput": {},
+                "_anchorInput": {
+                    "parent": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608",
+                    "_links": {
+                        "parent": {
+                            "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                        }
+                    }
+                },
+                "createdBy": {
+                    "$id": "5dfcf8cc3a390f0049bbb786"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc3a390f0049bbb786"
+                },
+                "dateCreated": {
+                    "$date": "2020-02-05T13:48:38.889Z"
+                },
+                "dateModified": {
+                    "$date": "2020-02-05T14:16:42.185Z"
+                },
+                "_id": {
+                    "$id": "5e3ac7b6ef55be0018382274"
+                },
+                "version": 2,
+                "relatedRoom": null,
+                "headVersion": {
+                    "$id": "5e3ac7b6ef55be0018382277"
+                },
+                "_meta": {
+                    "storage": "s3"
+                },
+                "_resourcePath": "/case/Case/documents"
+            }
+        ],
+        "participants": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839886"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "contact": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5e2039122445100018f5d89c"
+                    }
+                },
+                "roletype": "customer",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": true,
+                "isParty": true,
+                "active": true,
+                "isPlaceholder": true,
+                "name": "Severine Deluc",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "dateModified": {
+                    "$date": "2020-01-16T10:21:07.385Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a839886"
+                },
+                "version": 2,
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839888"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839886"
+                    }
+                },
+                "roletype": "customerContact",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": true,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a839888"
+                },
+                "version": 1,
+                "party": {
+                    "$id": "5e203654f22e45001a839886"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988a"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "contact": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/5dfcf8ae58c0a80017a4f22d"
+                    }
+                },
+                "roletype": "upOffice",
+                "isMandator": false,
+                "isPayer": false,
+                "region": "IDF",
+                "isCustomerParty": false,
+                "isParty": true,
+                "active": true,
+                "isPlaceholder": true,
+                "name": "AGENCE IDF",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "dateModified": {
+                    "$date": "2020-01-16T10:21:07.648Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a83988a"
+                },
+                "version": 2,
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988c"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988a"
+                    },
+                    "contact": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5dfcf8cc6bd6db00188c9aaf"
+                    }
+                },
+                "roletype": "adv",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "fromDate": {
+                    "$date": "2020-01-16T10:24:16.893Z"
+                },
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "name": "Miao Ying Ho Ching",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "dateModified": {
+                    "$date": "2020-01-16T10:24:17.190Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a83988c"
+                },
+                "version": 2,
+                "party": {
+                    "$id": "5e203654f22e45001a83988a"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988e"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988a"
+                    },
+                    "contact": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/5dfcf8ccbd26810018d58de0"
+                    }
+                },
+                "roletype": "commercial",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "name": "Laurence Bouznad",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "dateModified": {
+                    "$date": "2020-01-16T10:21:07.810Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a83988e"
+                },
+                "version": 2,
+                "party": {
+                    "$id": "5e203654f22e45001a83988a"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839890"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988a"
+                    }
+                },
+                "roletype": "responsableReconnaissance",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "name": null,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aa9"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "dateModified": {
+                    "$date": "2020-03-04T20:31:15.860Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a839890"
+                },
+                "version": 3,
+                "party": {
+                    "$id": "5e203654f22e45001a83988a"
+                },
+                "_meta": {
+                    "_overriddenFields": {}
+                },
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839892"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988a"
+                    }
+                },
+                "roletype": "siteManager",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a839892"
+                },
+                "version": 1,
+                "party": {
+                    "$id": "5e203654f22e45001a83988a"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839894"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83988a"
+                    }
+                },
+                "roletype": "gestionnaireProduction",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a839894"
+                },
+                "version": 1,
+                "party": {
+                    "$id": "5e203654f22e45001a83988a"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839896"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "contact": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/5dfcf8f43a390f0049bbb836"
+                    }
+                },
+                "roletype": "insurer",
+                "isMandator": true,
+                "isPayer": true,
+                "isCustomerParty": false,
+                "isParty": true,
+                "active": true,
+                "isPlaceholder": true,
+                "name": "AXA France",
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "dateModified": {
+                    "$date": "2020-01-16T10:21:07.490Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a839896"
+                },
+                "version": 2,
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839898"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839896"
+                    }
+                },
+                "roletype": "insurerManager",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a839898"
+                },
+                "version": 1,
+                "party": {
+                    "$id": "5e203654f22e45001a839896"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83989a"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    }
+                },
+                "roletype": "expertCompany",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": true,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a83989a"
+                },
+                "version": 1,
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83989c"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83989a"
+                    }
+                },
+                "roletype": "expertManager",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a83989c"
+                },
+                "version": 1,
+                "party": {
+                    "$id": "5e203654f22e45001a83989a"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83989e"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    }
+                },
+                "roletype": "platform",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": true,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a83989e"
+                },
+                "version": 1,
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a8398a0"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/CaseParticipant"
+                    },
+                    "iwe:case": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "iwe:self-parent": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "party": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a83989e"
+                    }
+                },
+                "roletype": "platformManager",
+                "isMandator": false,
+                "isPayer": false,
+                "isCustomerParty": false,
+                "isParty": false,
+                "active": true,
+                "isPlaceholder": true,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:09:24.325Z"
+                },
+                "_id": {
+                    "$id": "5e203654f22e45001a8398a0"
+                },
+                "version": 1,
+                "party": {
+                    "$id": "5e203654f22e45001a83989e"
+                },
+                "_meta": {},
+                "_resourcePath": "/case/Case/participants"
+            }
+        ],
+        "comments": [],
+        "_sharing": {
+            "_links": {
+                "self": {
+                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/_sharing"
+                },
+                "curies": {
+                    "name": "iwe",
+                    "href": "/api/docs/resources/{rel}.md",
+                    "templated": true
+                }
+            },
+            "version": 3,
+            "owner": {
+                "$id": "5dfcf8cc6bd6db00188c9aaf"
+            },
+            "allOwners": [
+                {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                }
+            ],
+            "level": "public",
+            "organizations": [
+                {
+                    "$id": "5e04e6485892dc00828d30ab"
+                }
+            ],
+            "cUsers": [],
+            "cOrganizations": []
+        }
+    },
+    "ref": "2002207",
+    "incidentChantier": null,
+    "startCountAt": 2000,
+    "title": "Severine Deluc / Severine Deluc / 75011 Paris",
+    "titleReport": "Severine Deluc   Severine Deluc   75011 Paris",
+    "wizardType": "toto",
+    "region": "IDF",
+    "regionCode": "IDF",
+    "titleAuto": "Severine Deluc / NC / AGENCE IDF",
+    "statutReglePayeurNecessaire": {
+        "roletype": "insurer",
+        "isParty": true,
+        "active": true,
+        "isPlaceholder": true,
+        "createdBy": {
+            "$id": "5dfcf8cc6bd6db00188c9aaf"
+        },
+        "dateCreated": {
+            "$date": "2020-01-16T10:09:24.325Z"
+        },
+        "_id": {
+            "$id": "5e203654f22e45001a839896"
+        },
+        "version": 2,
+        "_meta": null,
+        "isMandator": true,
+        "isCustomerParty": false,
+        "instanceDefVersion": 1,
+        "contact": {
+            "_id": {
+                "$id": "5dfcf8f43a390f0049bbb836"
+            },
+            "rootId": {
+                "$id": "5dfcf8f43a390f0049bbb836"
+            },
+            "rootDefName": "Organization",
+            "definition": null,
+            "path": "Organization/5dfcf8f43a390f0049bbb836"
+        },
+        "name": "AXA France",
+        "dateModified": {
+            "$date": "2020-01-16T10:21:07.490Z"
+        },
+        "modifiedBy": {
+            "$id": "5dfcf8cc6bd6db00188c9aaf"
+        },
+        "isPayer": true
+    },
+    "statutRegleClientNecessaire": false,
+    "refInsurer": "0000007507990573",
+    "policyNumber": "0000002238065204",
+    "claimDate": {
+        "$date": "2019-12-31T23:00:00.000Z"
+    },
+    "receivedDate": {
+        "$date": "2020-01-08T23:00:00.000Z"
+    },
+    "enteredDate": {
+        "$date": "2020-01-16T10:21:09.422Z"
+    },
+    "enteredBy": {
+        "$id": "5e12fa013566e30098c1bfda"
+    },
+    "openingDate": {
+        "$date": "2020-01-16T10:21:09.600Z"
+    },
+    "assignedDate": {
+        "$date": "2020-01-16T10:21:07.789Z"
+    },
+    "assignedADVDate": {
+        "$date": "2020-01-16T10:24:17.173Z"
+    },
+    "mandatorAffected": {
+        "$date": "2020-01-16T10:21:01.321Z"
+    },
+    "inputFlow": "mailPartenaire",
+    "status": "assigned",
+    "statutAdministratif": "complet",
+    "statutReconnaissance": "terminee",
+    "statutDevis": "termine",
+    "statutChantier": "facture",
+    "statutFacture": "soldee",
+    "statutCloture": "invalide",
+    "txVatReduce": "no",
+    "isCssCase": false,
+    "nature": "DDE",
+    "missionDescription": "RDF VISUELLE",
+    "franchiseToRecover": "no",
+    "vatToRecover": "no",
+    "isNaturalDisaster": false,
+    "completeCase": false,
+    "completeCaseState": "noComplete",
+    "administratifState": "red",
+    "administratifFlag": "red",
+    "commercialState": "red",
+    "commercialFlag": "red",
+    "productionState": "red",
+    "productionFlag": "red",
+    "invoiceState": "red",
+    "invoiceFlag": "red",
+    "financialState": "red",
+    "financialFlag": "red",
+    "riskLabel": "Severine Deluc / 75011 Paris",
+    "riskLabelReport": "Severine Deluc   75011 Paris",
+    "riskElevator": "yes",
+    "riskElectricity": "yes",
+    "riskaeraulics": "no",
+    "riskWater": "yes",
+    "riskImmeuble": "APPARTEMENT",
+    "riskFloor": "2",
+    "riskAddress": "100 Rue de la Folie Méricourt 75011 Paris Fr",
+    "riskAddressReport": "100 Rue de la Folie Méricourt",
+    "riskAddress1Report": "",
+    "riskAddress2Report": "",
+    "riskCityReport": "Paris",
+    "phone_1Risk": "+33649831428",
+    "phone_2Risk": "+33950225149",
+    "createRiskContact": false,
+    "wizardCreateReco": false,
+    "wizardRecoCreated": false,
+    "metiers": [
+        "professionRDF"
+    ],
+    "_counters": {
+        "documents/5e20399b2445100018f5da02/fileVersions": 1,
+        "documents/5e2039a7d6a8c70046fee55d/fileVersions": 2,
+        "documents/5e2039fc4b3cf30018ad1be4/fileVersions": 1,
+        "documents/5e344233baf6f90018d5ec75/fileVersions": 1,
+        "documents/5e3ac7b6ef55be0018382274/fileVersions": 1,
+        "documents/5e3aca897f839d001879bb44/fileVersions": 1,
+        "documents/5e600baccbca1c001a7eb15d/fileVersions": 1,
+        "documents/5e6014d6e67771005e03269a/fileVersions": 1,
+        "documents/5e6014f4e67771005e0326ac/fileVersions": 1,
+        "documents/5e6016cac34917001aa322ad/fileVersions": 1
+    },
+    "createdBy": {
+        "$id": "5dfcf8cc6bd6db00188c9aaf"
+    },
+    "modifiedBy": {
+        "$id": "5dfa7ca29565bc001a3f78c5"
+    },
+    "dateCreated": {
+        "$date": "2020-01-16T10:09:24.326Z"
+    },
+    "dateModified": {
+        "$date": "2020-12-16T18:20:25.859Z"
+    },
+    "_id": {
+        "$id": "5e203654f22e45001a839800"
+    },
+    "version": 17,
+    "_normalized_title": "SEVERINE DELUC / SEVERINE DELUC / 75011 PARIS",
+    "_normalized_riskAddress": "100 RUE DE LA FOLIE MERICOURT 75011 PARIS FR",
+    "_normalized_refInsurer": "0000007507990573",
+    "_normalized_refCustomer": "",
+    "_normalized_refExpertCompany": "",
+    "_normalized_refPlatform": "",
+    "_normalized_refExpertCompanyInsured": "",
+    "_normalized_policyNumber": "0000002238065204",
+    "receivedBy": null,
+    "mandator": {
+        "$id": "5e203654f22e45001a839896"
+    },
+    "payer": {
+        "$id": "5e203654f22e45001a839896"
+    },
+    "contributor": null,
+    "_meta": {
+        "process": [
+            {
+                "envId": {
+                    "$id": "5dfa7a9d6bd6db00188af000"
+                },
+                "ref": "process-up",
+                "version": {
+                    "$id": "5e0621403a390f0049be1ce2"
+                },
+                "inactive": false
+            }
+        ],
+        "errors": [],
+        "email": "case+5e203654f22e45001a839800.Case.5dfa7a9d6bd6db00188af000@uplink.i-we.io"
+    },
+    "_contacts": [],
+    "_resourcePath": "/case/Case"
+}

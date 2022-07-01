@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "AXA2JL",
+    "version": "1.0",
+    "description": "AXA To JLogiciels",
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "content_scripts": [
+        {
+            "js": ["axa.js"],
+            "matches": ["https://portail-es.axa.fr/HomeEs/Index"]
+        }
+    ],
+    "icons":{
+        "16":"axa.png",
+        "32":"axa.png",
+        "128":"axa.png"
+    },
+    "permissions": [
+        "storage",
+        "unlimitedStorage",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "https://*/*",
+        "http://*/*"
+    ]
+}

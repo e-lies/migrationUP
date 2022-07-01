@@ -1,0 +1,122 @@
+{"statutRegleClientNecessaire": false,
+      "refInsurer": "20490010616D",
+      "refPlatform": "3",
+      "policyNumber": "064068550002",
+      "claimDate": {
+        "$date": "2020-04-05T22:00:00.000Z"
+      },
+      "receivedDate": {
+        "$date": "2020-05-11T22:00:00.000Z"
+      },
+      "enteredDate": {
+        "$date": "2020-05-13T15:32:54.725Z"
+      },
+      "enteredBy": {
+        "$id": "5e53b2ea02665d0018cb6ca3"
+      },
+      "openingDate": {
+        "$date": "2020-05-13T15:32:54.817Z"
+      },
+      "assignedDate": {
+        "$date": "2020-05-13T15:32:53.571Z"
+      },
+      "mandatorAffected": {
+        "$date": "2020-05-13T15:32:42.084Z"
+      },
+      "inputFlow": "extranetPartenaire",
+      "status": "assigned",
+      "statutAdministratif": "complet",
+      "statutReconnaissance": "terminee",
+      "statutDevis": "termine",
+      "statutChantier": "facture",
+      "statutFacture": "soldee",
+      "statutCloture": "invalide",
+      "txVatReduce": "yes",
+      "isCssCase": false,
+      "nature": "DDE",
+      "franchiseToRecover": "no",
+      "vatToRecover": "no",
+      "isNaturalDisaster": false,
+      "completeCase": false,
+      "completeCaseState": "noComplete",
+      "administratifState": "red",
+      "administratifFlag": "red",
+      "commercialState": "red",
+      "commercialFlag": "red",
+      "productionState": "red",
+      "productionFlag": "red",
+      "invoiceState": "red",
+      "invoiceFlag": "red",
+      "financialState": "red",
+      "financialFlag": "red",
+      "riskLabel": " / 93300 Aubervilliers",
+      "riskLabelReport": "   93300 Aubervilliers",
+      "riskLogement": "F3 - 60M2",
+      "riskAcces": "BATIMENT 255C",
+      "riskType": "IMMEUBLE",
+      "riskFloor": "RDC",
+      "riskDoor": "1",
+      "natureRiskCustomer": "locataire",
+      "riskAddress": "6/8 Passage Machouart 93300 Aubervilliers Fr",
+      "riskAddressReport": "6 8 Passage Machouart",
+      "riskAddress1Report": "",
+      "riskAddress2Report": "",
+      "riskCityReport": "Aubervilliers",
+      "createRiskContact": false,
+      "wizardCreateReco": true,
+      "wizardRecoCreated": true,
+      "metiers": [
+        "professionRenovation"
+      ],
+      "_counters": {
+        "documents/5ebc13766865e7001a7dd3ba/fileVersions": 1,
+        "documents/5ebc137c99d46e0164e4b886/fileVersions": 1,
+        "documents/5ed7bac9870f6c001918be8b/fileVersions": 1,
+        "documents/5ed7bacb870f6c001918be97/fileVersions": 1,
+        "documents/5ed7baccb1b02f001a7d0d3f/fileVersions": 1,
+        "documents/5ed7bacc870f6c001918bea3/fileVersions": 1,
+        "documents/5ed7bace434b78001adf5c40/fileVersions": 1,
+        "documents/5ef20cd302a62400251c1933/fileVersions": 1,
+        "documents/5ef20cd402a62400251c1945/fileVersions": 1,
+        "documents/5ef20cdc6d935800253ede12/fileVersions": 1,
+        "documents/5f64af6b52d8a80024a39c92/fileVersions": 1,
+        "documents/5f64af6b27fb740024f6b6e0/fileVersions": 1,
+        "documents/5f64af6d5dfe110024c2a549/fileVersions": 1,
+        "documents/5f64b5a427fb740024f6c658/fileVersions": 1,
+        "documents/5f64b5e139aea20024a449da/fileVersions": 1
+      },
+      "createdBy": {
+        "$id": "5dfb35549565bc001a3fde4f"
+      },
+      "modifiedBy": {
+        "$id": "5dfa7ca29565bc001a3f78c5"
+      },
+      "dateCreated": {
+        "$date": "2020-01-02T12:21:41.052Z"
+      },
+      "dateModified": {
+        "$date": "2020-12-16T18:20:21.400Z"
+      },
+      "_id": {
+        "$id": "5e0de0557394d700953b4d09"
+      },
+      "version": 46,
+      "_normalized_title": "ISMAIL RAHMOUNI /  / 93300 AUBERVILLIERS",
+      "_normalized_riskAddress": "6/8 PASSAGE MACHOUART 93300 AUBERVILLIERS FR",
+      "_normalized_refInsurer": "20490010616D",
+      "_normalized_refCustomer": "",
+      "_normalized_refExpertCompany": "",
+      "_normalized_refPlatform": "3",
+      "_normalized_refExpertCompanyInsured": "",
+      "_normalized_policyNumber": "064068550002",
+      "receivedBy": null,
+      "mandator": {
+        "$id": "5e0de0557394d700953b4da7"
+      },
+      "payer": {
+        "$id": "5e0de0557394d700953b4d9f"
+      },
+      "contributor": {
+        "$id": "5e0de0557394d700953b4da7"
+      }
+}

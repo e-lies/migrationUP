@@ -1,0 +1,228 @@
+{
+    "bedBug": {
+        "childPresence": "yes",
+        "petsPresence": "no",
+        "bedPresence": "no",
+        "bedBugHistory": "yes",
+        "bedBugHistoryDate": {
+        "$date": "2016-06-14T22:00:00.000Z"
+        },
+        "treatmentAlreadyDone": "yes",
+        "treatmentDate": {
+        "$date": "2016-06-19T22:00:00.000Z"
+        },
+        "treatmentType": "Chimique",
+        "excretaPresence": "yes",
+        "moultsPresence": "no",
+        "bedBugBites": "yes",
+        "deadBedBugPresence": "yes",
+        "bedBugPresence": "no",
+        "crowdedHousing": "yes",
+        "crowdedHousingDetails": "3 Chambres",
+        "groundOff": "no",
+        "infectionLevel": "moyen",
+        "propagationPerimeter": "L'ensemble du logement concerné. \nAucune présence de punaises de lit observée dans les logements mitoyens.  \nRisque de propagation probable vers les logements mitoyens au vu de l’état d'infestation du logement de Mme Goncalves.",
+        "comment": "Réalisé par le locataire\nDernier traitement en date réalisé le mois de mars 2019",
+        "location": "Toutes les pièces du logement concerné",
+        "locationNature": "Literies dans les chambres\nCanapé séjour \nMobilier rattaché : plinthes et prises électriques",
+        "createdBy": {
+        "$id": "5dfcf8cd2fe2d7001883d0a6"
+        },
+        "modifiedBy": {
+        "$id": "5dfcf8cd41a7f6001853ac5e"
+        },
+        "dateCreated": {
+        "$date": "2020-01-06T10:56:58.577Z"
+        },
+        "dateModified": {
+        "$date": "2020-01-06T16:09:08.291Z"
+        },
+        "_id": {
+        "$id": "5e13127a821eb300928f8bea"
+        },
+        "version": 3,
+        "_meta": {},
+        "_resourcePath": "/case/Quote/bedBug"
+    },
+    "ref": "2002008-D1.1",
+    "caseQuoteNumber": 1,
+    "title": "Paris Habitat / Sandrine Da Veiga Goncalves / 94450 Limeil-Brévannes",
+    "titlev": "Paris Habitat / Sandrine Da Veiga Goncalves / 94450 Limeil-Brévannes v1",
+    "date": {
+        "$date": "2020-01-09T08:40:15.917Z"
+    },
+    "refBdc": "K84276",
+    "dateBdc": {
+        "$date": "2020-01-19T23:00:00.000Z"
+    },
+    "status": "mandatorAgreement",
+    "quoteSignedDirect": true,
+    "approvedBy": "accord",
+    "validatedDate": {
+        "$date": "2020-01-09T08:40:15.917Z"
+    },
+    "sendDate": {
+        "$date": "2020-01-09T08:40:21.700Z"
+    },
+    "mandatorAgreementDate": {
+        "$date": "2020-03-25T13:47:06.608Z"
+    },
+    "terminatedDate": {
+        "$date": "2020-03-25T13:47:06.608Z"
+    },
+    "depositInvoicePercent": 0,
+    "depositInvoiceToDo": false,
+    "askDepositInvoice": "no",
+    "globalAmount": 646,
+    "globalAmountNotBilling": 0,
+    "globalAmountBilling": 646,
+    "globalAmountDone": 0,
+    "globalAmountNotDone": 0,
+    "globalAmountCancel": 0,
+    "discount": 0,
+    "totalHTVATClassicBeforDiscount": 0,
+    "totalHTVATLessBeforDiscount": 646,
+    "totalHTVATSmallBeforDiscount": 0,
+    "totalHTClassicVatAmount": 0,
+    "totalHTVatLessAmount": 646,
+    "totalHTVatSmallAmount": 0,
+    "globalVatAmount": 64.6,
+    "globalVatAmountNotBilling": 0,
+    "globalVatAmountBilling": 64.6,
+    "globalVatAmountDone": 0,
+    "globalVatAmountNotDone": 0,
+    "globalVatAmountCancel": 0,
+    "classicVatAmount": 0,
+    "vatLessAmount": 64.6,
+    "vatSmallAmount": 0,
+    "vatLessOrSmallAmount": 64.6,
+    "totalTaxInclusive": 710.6,
+    "totalTaxInclusiveNotBilling": 0,
+    "totalTaxInclusiveBilling": 710.6,
+    "totalTaxInclusiveNotDone": 0,
+    "totalTaxInclusiveDone": 0,
+    "totalTaxInclusiveCancel": 0,
+    "commentBedBug": "Au vu du taux d'infestation, nous préconisons une intervention rapide afin d'anticiper toute propagation vers les logements mitoyens.",
+    "quoteVersion": "1",
+    "dunningDate": {
+        "$date": "2020-01-11T00:00:00.000Z"
+    },
+    "validatedBy": {
+        "$id": "5e0dac4f0b37200056e2a769"
+    },
+    "sendBy": {
+        "$id": "5e0dac4f0b37200056e2a769"
+    },
+    "terminatedBy": {
+        "$id": "5e0de64d1603b300ca799ea5"
+    },
+    "professionDecontamination": null,
+    "professionRDF": null,
+    "professionDewatering": null,
+    "professionPurification": null,
+    "professionTextile": null,
+    "profession3DPunaise": true,
+    "professionRenovation": null,
+    "professionAsbestosRemoval": null,
+    "metiers": [
+        "profession3DPunaise"
+    ],
+    "nbTextile": 0,
+    "nbTextileRNF": 0,
+    "nbTextileHorsRNF": 0,
+    "amountTextileRNF": 0,
+    "txVatReduce": "yes",
+    "paysTva": "FR",
+    "amountTextileHorsRNF": 0,
+    "modaliteIntervention": "Selon la situation rencontrée, Unipromotion mettra en œuvre les moyens suivants, tant que nécessaires à l’accomplissement de la mission, au choix du technicien : \n\n     • Constat des dégâts et désordres correspondant au sinistre déclaré \n     • Tout constat de dégât ou de désordre autre, utile dans la recherche \n     • Cartographie des zones humides à l’humidimètre et/ou à la caméra thermographique \n     • Contrôle manométrique et/ou mise en épreuve conforme aux DTU, des circuits d’eau concernés, suivant les possibilités d'accès aux différents circuits \n     • Sur les circuits fuyards, localisation des fuites par système électronique ou par injection de gaz traceur \n     • Contrôle de l’état des conduites d’évacuations apparentes et encastrées, visuel ou par vidéo endoscopie, par thermographie infrarouge ou par injection de fumigène \n     • Essai et mise en charge des collecteurs et branchements par obturateur suivant les possibilités d’accès, recherche par eaux colorées \n     • Contrôles endoscopiques et diagnostiques des appareils et installations sanitaires dans les zones concernées par les recherches pouvant générer des désordres \n     • Détection par système électromagnétique des canalisations après passage de fibre, pour report exact sur les plans fournis \n     • echerche de fuite et repérage du cheminement des canalisations suspectes par caméra thermographique \n     • Injection de fumigène ou de gaz traceur dans des revêtements de toiture, mise en charge d’éléments de toiture avec produits traçants \n     • Suivant les résultats obtenus et la nature des recherches, le technicien sur place peut envisager d’utiliser d’autres techniques de recherche appropriées ainsi qu’une extension des recherches hors zones concernées afin de mener à bien sa mission (comme les caves ou les locaux annexes). \n\nÀ l’issue de sa mission, le technicien rédigera un rapport de recherche de fuite circonstancié.",
+    "conditionIntervention": "Défaut d’accès : \n Pour tout déplacement annulé n'ayant pas fait l'objet d'information à notre service par mail ou par téléphone 24 heures avant la date d’intervention, des frais de gestion et de déplacement de 192 €/TTC seront facturés au bénéficiaire de la recherche de fuite.\nAfin d’effectuer nos investigations dans les meilleures conditions, il est impératif : \n     • D’accéder à toutes les zones concernées par notre mission ou susceptibles d’être à l’origine des désordres.\n     • D’accéder à l’ensemble des circuits et réseaux à contrôler, qui devront être manipulables et maîtrisables le jour de l’intervention.\n\n Dans le cas contraire, nous en réfèrerons à notre mandant pour déterminer la suite à donner. \n\nRecherche de fuite non-destructive\nDans le cadre d’une mission de recherche de fuite non-destructive, nous ne pouvons aggraver la situation rencontrée, dans tous les locaux ou installations concernées, à l’exception des situations suivantes : \n     • Augmentation de l’humidité constatée à notre arrivée, sur un support non sec (suite par exemple à un test d’écoulement)\n     • Ajout d’un produit traçant, visible après notre intervention, sur un support déjà évidemment dégradé et destiné à être rénové\n\n En cas d’action nécessaire à l’investigation présentant un risque de dégradation, nous demanderons l’accord exprès du propriétaire du bien ou l’accord de l’expert ou du mandant avant de procéder.\n\n Notre offre ne tient pas compte de la remise éventuelle en état des tampons de visite, des regards et autres organes des installations d’assainissements éventuellement endommagés lors de leur ouverture et de leur contrôle pour les besoins de l’inspection, compte tenu de leur état de vétusté, ainsi que des travaux préparatoires, pour mener à bien nos investigations (fouilles, mise en place de tampons hermétiques, création de fenêtres de visite, nettoyage ou hydro curage, etc..).\n\nLe montant de nos prestations est forfaitaire et estimatif, tous dépassements horaires feront l’objet d’une facturation supplémentaire.",
+    "mission": "Recherche non destructive de fuite",
+    "relatedCaseId": {
+        "$id": "5e0f03f07394d700953bab42"
+    },
+    "_counters": {
+    "documents/5e131761a1deb50098c258e0/fileVersions": 1,
+    "documents/5e1317621603b300ca7aaf8f/fileVersions": 1,
+    "documents/5e131763821eb300928f911d/fileVersions": 1,
+    "documents/5e131764a1deb50098c258eb/fileVersions": 1,
+    "documents/5e13176516976c00f5743761/fileVersions": 1,
+    "documents/5e13176616976c00f574376c/fileVersions": 1,
+    "documents/5e13176716976c00f5743777/fileVersions": 1
+    },
+    "createdBy": {
+        "$id": "5dfcf8cd2fe2d7001883d0a6"
+    },
+    "modifiedBy": {
+        "$id": "5dfa7ca29565bc001a3f78c5"
+    },
+    "dateCreated": {
+        "$date": "2020-01-06T10:56:58.578Z"
+    },
+    "dateModified": {
+        "$date": "2020-04-08T17:10:14.685Z"
+    },
+    "_id": {
+        "$id": "5e13127a821eb300928f8bce"
+    },
+    "version": 10,
+        "_meta": {
+        "tags": {
+            "documents": [
+                {
+                    "_id": {
+                    "$id": "5e13127a1603b300ca7aa984"
+                    },
+                    "name": "photo-1"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127a16976c00f574308a"
+                    },
+                    "name": "photo-2"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127b7394d700953c6506"
+                    },
+                    "name": "photo-3"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127b821eb300928f8bf0"
+                    },
+                    "name": "photo-4"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127b0d17a001126fd0ee"
+                    },
+                    "name": "photo-5"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127b3566e30098c1df79"
+                    },
+                    "name": "photo-6"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127b0b37200056e3e63b"
+                    },
+                    "name": "photo-7"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127ba1deb50098c253fa"
+                    },
+                    "name": "photo-8"
+                },
+                {
+                    "_id": {
+                    "$id": "5e13127b16976c00f574308c"
+                    },
+                    "name": "photo-9"
+                }
+            ]
+        }
+    }
+}

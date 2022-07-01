@@ -1,0 +1,3282 @@
+{
+	"_links": {
+		"self": {
+			"href": "/api/query-executor/5dfa7a9d6bd6db00188af000/query/5dfb266c41a7f600185246d8/results"
+		},
+		"curies": {
+			"name": "iwe",
+			"href": "/api/docs/resources/{rel}.md",
+			"templated": true
+		},
+		"iwe:query": {
+			"href": "/api/query-executor/5dfa7a9d6bd6db00188af000/query/5dfb266c41a7f600185246d8"
+		},
+		"iwe:page": {
+			"href": "/api/query-executor/5dfa7a9d6bd6db00188af000/query/5dfb266c41a7f600185246d8/results?%24sort=%7B%22Case.ref%22%3A1%7D&assignFilters=%7B%7D&filters=%7B%7D&page=%7BpageId%7D&perPage=50",
+			"templated": true
+		},
+		"iwe:first": {
+			"href": "/api/query-executor/5dfa7a9d6bd6db00188af000/query/5dfb266c41a7f600185246d8/results?%24sort=%7B%22Case.ref%22%3A1%7D&assignFilters=%7B%7D&filters=%7B%7D&perPage=50"
+		},
+		"iwe:last": {
+			"href": "/api/query-executor/5dfa7a9d6bd6db00188af000/query/5dfb266c41a7f600185246d8/results?%24sort=%7B%22Case.ref%22%3A1%7D&assignFilters=%7B%7D&filters=%7B%7D&perPage=50&page=353"
+		},
+		"iwe:next": {
+			"href": "/api/query-executor/5dfa7a9d6bd6db00188af000/query/5dfb266c41a7f600185246d8/results?%24sort=%7B%22Case.ref%22%3A1%7D&assignFilters=%7B%7D&filters=%7B%7D&perPage=50&page=2"
+		},
+		"caseObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Case/{caseObject._id}",
+			"templated": true
+		},
+		"addressObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/undefined",
+			"templated": true
+		},
+		"participantObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/undefined",
+			"templated": true
+		},
+		"creatorObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/{creatorObject._id}",
+			"templated": true
+		},
+		"customerObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/{customerObject.entity}/{customerObject._id}",
+			"templated": true
+		},
+		"insurerObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/{insurerObject._id}",
+			"templated": true
+		},
+		"advObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/{advObject._id}",
+			"templated": true
+		},
+		"commercialObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/{commercialObject._id}",
+			"templated": true
+		},
+		"siteManagerObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/{siteManagerObject._id}",
+			"templated": true
+		},
+		"mandatorObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Contact/{mandatorObject._id}",
+			"templated": true
+		},
+		"myOfficeObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/undefined",
+			"templated": true
+		},
+		"platformObject": {
+			"href": "/api/5dfa7a9d6bd6db00188af000/case/Organization/{platformObject._id}",
+			"templated": true
+		}
+	},
+	"count": 50,
+	"results": [
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aaf"
+				},
+				"name": "Miao Ying Ho Ching"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e203654f22e45001a839800"
+				},
+				"ref": "2002207",
+				"refInsurer": "0000007507990573",
+				"dateCreated": {
+					"$date": "2020-01-16T10:09:24.326Z"
+				},
+				"policyNumber": "0000002238065204",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Severine Deluc / Severine Deluc / 75011 Paris",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75011"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e2039122445100018f5d89c"
+				},
+				"name": "Severine Deluc",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58de0"
+				},
+				"name": "Laurence Bouznad"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aaf"
+				},
+				"name": "Miao Ying Ho Ching",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb742"
+				},
+				"name": "Amélie Harribey"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0db2b97394d700953b2778"
+				},
+				"ref": "2002001",
+				"refInsurer": "01069193904S08BRA",
+				"dateCreated": {
+					"$date": "2020-01-02T09:07:05.166Z"
+				},
+				"policyNumber": "928160904",
+				"nature": "DDE",
+				"status": "css",
+				"professionDewatering": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Marinette Meka /  / 33000 Bordeaux",
+				"metiers": [
+					"professionDewatering"
+				],
+				"region": "SDO"
+			},
+			"addressObject": {
+				"city": "Bordeaux",
+				"postal_code": "33000"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e60afd8b614ad0074b27c48"
+				},
+				"name": "Marinette Meka",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f82b9bd200185ec0bc"
+				},
+				"name": "PACIFICA",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e60afd9c34917001aa338ae"
+				},
+				"name": "Multiassistance Grand Chantier"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc58c0a80017a4f26e"
+				},
+				"name": "Eric Gillot"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58de8"
+				},
+				"name": "Olivier Pujol",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e60afd9c34917001aa338ae"
+				},
+				"name": "Multiassistance Grand Chantier",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0dc93c2c347e25938ebb87"
+				},
+				"ref": "2002003",
+				"refInsurer": "0000007463455073",
+				"dateCreated": {
+					"$date": "2020-01-02T10:43:08.295Z"
+				},
+				"policyNumber": "0000002186262804",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Christian Mignot / Christian Mignot / 75116 Paris",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75116"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0de3b51603b300ca799cfc"
+				},
+				"name": "Christian Mignot",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58de0"
+				},
+				"name": "Laurence Bouznad"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfcf8cd2fe2d7001883d0a6"
+				},
+				"name": "Stéphane Stojanovic"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0dc95ba1deb50098c130c7"
+				},
+				"ref": "2002004",
+				"refInsurer": "TEST 10",
+				"dateCreated": {
+					"$date": "2020-01-02T10:43:39.639Z"
+				},
+				"policyNumber": "TEST 11",
+				"nature": "3D",
+				"status": "css",
+				"professionTextile": true,
+				"professionPurification": true,
+				"professionDewatering": true,
+				"professionRDF": true,
+				"professionDecontamination": true,
+				"profession3DPunaise": true,
+				"professionRenovation": true,
+				"professionAsbestosRemoval": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "asaisir",
+				"statutChantier": "termine",
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "",
+				"metiers": [
+					"professionDecontamination",
+					"professionRDF",
+					"professionDewatering",
+					"professionPurification",
+					"professionTextile",
+					"profession3DPunaise",
+					"professionRenovation",
+					"professionAsbestosRemoval"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": ""
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5ea6ddf6827b830019fa2a5a"
+				},
+				"name": "Yassime Dilmi"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfa7ca29565bc001a3f78c5"
+				},
+				"name": "Stephane Congre",
+				"portfolio": false
+			},
+			"siteManagerObject": {
+				"_id": {
+					"$id": "606c63a9d7f4170011868763"
+				},
+				"name": "Samuel Cornen"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfb35549565bc001a3fde4f"
+				},
+				"name": "Patrice Respdos"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0de0557394d700953b4d09"
+				},
+				"ref": "2002005",
+				"refInsurer": "20490010616D",
+				"dateCreated": {
+					"$date": "2020-01-02T12:21:41.052Z"
+				},
+				"policyNumber": "064068550002",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionTextile": false,
+				"professionPurification": false,
+				"professionDewatering": false,
+				"professionRDF": false,
+				"professionDecontamination": false,
+				"profession3DPunaise": false,
+				"professionRenovation": true,
+				"professionAsbestosRemoval": false,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Ismail Rahmouni /  / 93300 Aubervilliers",
+				"metiers": [
+					"professionRenovation"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Aubervilliers",
+				"postal_code": "93300"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5ebc132499d46e0164e4b737"
+				},
+				"name": "Ismail Rahmouni",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f458c0a80017a4f361"
+				},
+				"name": "CARMA",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e5cce94a06bf3001a9c56f1"
+				},
+				"name": "SINAPPS"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58de0"
+				},
+				"name": "Laurence Bouznad"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e5cce94a06bf3001a9c56f1"
+				},
+				"name": "SINAPPS",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfb35549565bc001a3fde4f"
+				},
+				"name": "Patrice Respdos"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0de3d0a1deb50098c14032"
+				},
+				"ref": "2002006",
+				"refInsurer": "test",
+				"dateCreated": {
+					"$date": "2020-01-02T12:36:32.590Z"
+				},
+				"policyNumber": "test",
+				"nature": "DDE",
+				"status": "entered",
+				"professionDewatering": false,
+				"professionRDF": false,
+				"professionDecontamination": true,
+				"profession3DPunaise": false,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": "aplanifier",
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Test Iwe Societe / Test Iwe Societe / 75002 Paris",
+				"metiers": [
+					"professionDecontamination"
+				],
+				"region": null
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75002"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0de4a7475d3300d82f1d6f"
+				},
+				"name": "Test Iwe Societe",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f541a7f6001853ad37"
+				},
+				"name": "MAIF                    (IdF RdF)",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8fe6bd6db00188c9c29"
+				},
+				"name": "TEXA  PARIS SUD",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0e20552c347e4a888ecad1"
+				},
+				"ref": "2002007",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-02T16:54:45.953Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "incomplet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Paris Habitat /  /  ",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58db9"
+				},
+				"name": "Imane Messila"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f03f07394d700953bab42"
+				},
+				"ref": "2002008",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T09:05:52.816Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "PARIS HABITAT / Sandrine Da Veiga Goncalves / 94450 Limeil-Brévannes",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Limeil-Brévannes",
+				"postal_code": "94450"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f0ea2475d3300d82f7b30"
+				},
+				"name": "Paris Habitat - Dtvm"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9ada"
+				},
+				"name": "Sladan Rakic"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f118c2c347e57e88ed533"
+				},
+				"ref": "2002009",
+				"refInsurer": "201.181.935.719 T",
+				"dateCreated": {
+					"$date": "2020-01-03T10:03:56.567Z"
+				},
+				"policyNumber": "BQ 6260966",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "termine",
+				"statutCloture": null,
+				"statutFacture": "nonreglee",
+				"title": "Richard Milleville / Richard Milleville / 77150 Lésigny",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Lésigny",
+				"postal_code": "77150"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5ea71c78f73aea019c1f3bba"
+				},
+				"name": "Richard Milleville",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f658c0a80017a4f3e2"
+				},
+				"name": "ACM IARD",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa9"
+				},
+				"name": "Stéphane Cancela"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9adf"
+				},
+				"name": "Véronique Bibal",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf93bbd26810018d59437"
+				},
+				"name": "Jacques Henry",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f123b2c347e51a68ed639"
+				},
+				"ref": "2002010",
+				"refInsurer": "19-0100336-C7620",
+				"dateCreated": {
+					"$date": "2020-01-03T10:06:51.114Z"
+				},
+				"policyNumber": "GC00976567",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Alban Roson /  / 33710 Mombrier",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "SDO"
+			},
+			"addressObject": {
+				"city": "Mombrier",
+				"postal_code": "33710"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e9037ae952ce0001a1f6612"
+				},
+				"name": "Alban Roson",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f541a7f6001853ad30"
+				},
+				"name": "SURAVENIR",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc2b9bd200185ebf4d"
+				},
+				"name": "Sébastien Friconnet"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf9429565bc001a413645"
+				},
+				"name": "Tony Jamain",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f15ae2c347e725e8ed814"
+				},
+				"ref": "2002011",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T10:21:34.385Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Habitat Sud Atlantic / Mme LANNELONGUE / 64100 Bayonne",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "SDO"
+			},
+			"addressObject": {
+				"city": "Bayonne",
+				"postal_code": "64100"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e392737f19d120018fb2314"
+				},
+				"name": "Habitat Sud Atlantic",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc58c0a80017a4f273"
+				},
+				"name": "Jean-Christophe Goyer"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e392737f19d120018fb2314"
+				},
+				"name": "Habitat Sud Atlantic",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f16b52c347ed41b8ed92a"
+				},
+				"ref": "2002012",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T10:25:57.641Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Feda Boughar / 75009 Paris",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75009"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f35831603b300ca7a1d6f"
+				},
+				"name": "Paris Habitat - Dtes"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f1b092c347e21198edaac"
+				},
+				"ref": "2002013",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T10:44:25.954Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "signe",
+				"statutChantier": "facture",
+				"statutCloture": "validee",
+				"statutFacture": "soldee",
+				"title": "Fabrice Guillet / Fabrice Guillet / 92700 Colombes",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Colombes",
+				"postal_code": "92700"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f2205a8d83d008bf2b1e3"
+				},
+				"name": "Fabrice Guillet",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f27362c347e1eb08eddc1"
+				},
+				"ref": "2002014",
+				"refInsurer": "190194150",
+				"dateCreated": {
+					"$date": "2020-01-03T11:36:22.864Z"
+				},
+				"policyNumber": "006630465",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": null,
+				"statutFacture": "nonreglee",
+				"title": "Martine Delisle / Martine Delisle / 94160 Saint-Mandé",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Saint-Mandé",
+				"postal_code": "94160"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f4f32a1deb50098c1e107"
+				},
+				"name": "Martine Delisle",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f441a7f6001853acf8"
+				},
+				"name": "BPCE Assurances",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc9565bc001a412d39"
+				},
+				"name": "Joana Miranda"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9adf"
+				},
+				"name": "Véronique Bibal",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f4f32475d3300d82fb4cd"
+				},
+				"name": "Thomas Wisnicki",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f27eb2c347e358f8ede9f"
+				},
+				"ref": "2002015",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T11:39:23.996Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Patrice Fabre / Patrice Fabre / 77250 Villemer",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Villemer",
+				"postal_code": "77250"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f2d01475d3300d82f96e7"
+				},
+				"name": "Patrice Fabre",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f305a2c347e24218ee003"
+				},
+				"ref": "2002016",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T12:15:22.768Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Rene Luquet / 75019 Paris",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75019"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e15fc7f40377d001787600a"
+				},
+				"name": "Paris Habitat - Dtne"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f32ef2c347e086a8ee0dd"
+				},
+				"ref": "2002017",
+				"refInsurer": "190N68994U",
+				"dateCreated": {
+					"$date": "2020-01-03T12:26:23.648Z"
+				},
+				"policyNumber": "770209005606K",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Isabelle BAUDUIN / 77510 Villeneuve-Sur-Bellot",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Villeneuve-Sur-Bellot",
+				"postal_code": "77510"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5ec3b186101ce6001aedeb2a"
+				},
+				"name": "Isabelle Bauduin",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f49565bc001a412dd7"
+				},
+				"name": "MATMUT",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa9"
+				},
+				"name": "Stéphane Cancela"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9adf"
+				},
+				"name": "Véronique Bibal",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf93bbd26810018d59437"
+				},
+				"name": "Jacques Henry",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58db9"
+				},
+				"name": "Imane Messila"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f374ea8d83d008bf2c1d3"
+				},
+				"ref": "2002018",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T12:45:02.536Z"
+				},
+				"status": "css",
+				"statutAdministratif": "incomplet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "(Non défini)",
+				"metiers": []
+			},
+			"addressObject": {}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58db9"
+				},
+				"name": "Imane Messila"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f37a9475d3300d82f9b22"
+				},
+				"ref": "2002019",
+				"refInsurer": "1121159904/S08/GBA",
+				"dateCreated": {
+					"$date": "2020-01-03T12:46:33.663Z"
+				},
+				"nature": "DDE",
+				"status": "css",
+				"professionTextile": false,
+				"professionPurification": false,
+				"professionDewatering": false,
+				"professionRDF": false,
+				"professionDecontamination": false,
+				"profession3DPunaise": false,
+				"professionRenovation": true,
+				"professionAsbestosRemoval": false,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Audrey Petit /  / 78420 Carrières-Sur-Seine",
+				"metiers": [
+					"professionRenovation"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Carrières-Sur-Seine",
+				"postal_code": "78420"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5ebd12579225c30019049006"
+				},
+				"name": "Audrey Petit",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f82b9bd200185ec0bc"
+				},
+				"name": "PACIFICA",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e65ff67b5c940001a1b28cd"
+				},
+				"name": "Viaren"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58de0"
+				},
+				"name": "Laurence Bouznad"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e65ff67b5c940001a1b28cd"
+				},
+				"name": "Viaren",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f390e2c347e0bdf8ee273"
+				},
+				"ref": "2002020",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T12:52:30.418Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "transmis",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Said Farissi / 75019 Paris",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75019"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f34c93566e30098c14e27"
+				},
+				"name": "Paris Habitat - Dtne"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd2fe2d7001883d0a6"
+				},
+				"name": "Stéphane Stojanovic"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f3d252c347e849b8ee3f4"
+				},
+				"ref": "2002021",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T13:09:57.092Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Kajani Tharmananthasivam / 75020 Paris",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75020"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e16046740377d00178767b4"
+				},
+				"name": "Paris Habitat - Dte"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd2fe2d7001883d0a6"
+				},
+				"name": "Stéphane Stojanovic"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f3fdb2c347e02f48ee530"
+				},
+				"ref": "2002022",
+				"refInsurer": "F190366859J C60H 23",
+				"dateCreated": {
+					"$date": "2020-01-03T13:21:31.959Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Laurence Tremouille / Laurence Tremouille / 77780 Bourron Marlotte",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Bourron Marlotte",
+				"postal_code": "77780"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f5501821eb300928f215d"
+				},
+				"name": "Laurence Tremouille",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d186"
+				},
+				"name": "MAIF",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9adf"
+				},
+				"name": "Véronique Bibal",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d186"
+				},
+				"name": "MAIF",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f40372c347e8c958ee608"
+				},
+				"ref": "2002023",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T13:23:03.241Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "termine",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Coralie Scheepers / Coralie Scheepers / 94100 Saint-Maur-Des-Fossés",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Saint-Maur-Des-Fossés",
+				"postal_code": "94100"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f5a0a1603b300ca7a442f"
+				},
+				"name": "Coralie Scheepers",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f407d2c347e3f408ee6d4"
+				},
+				"ref": "2002024",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T13:24:13.657Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "transmis",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Djaafar Labreche /  ",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f31cfa8d83d008bf2bfcf"
+				},
+				"name": "Paris Habitat - Dtne"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd2fe2d7001883d0a6"
+				},
+				"name": "Stéphane Stojanovic"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f40ce2c347ebddd8ee7b8"
+				},
+				"ref": "2002025",
+				"refInsurer": "232777H19-ARN1-1",
+				"dateCreated": {
+					"$date": "2020-01-03T13:25:34.456Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Jean-Marc Launay / Jean-Marc Launay / 78500 Sartrouville",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Sartrouville",
+				"postal_code": "78500"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f5b28a8d83d008bf2eaaa"
+				},
+				"name": "Jean-Marc Launay",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f41332c347e8f4d8ee88a"
+				},
+				"ref": "2002026",
+				"refInsurer": "M190551180P C92G 60",
+				"dateCreated": {
+					"$date": "2020-01-03T13:27:15.491Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Philippe Gallic / Philippe Gallic / 75010 Paris",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75010"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f5f52a1deb50098c1f1c5"
+				},
+				"name": "Philippe Gallic",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f541a7f6001853ad37"
+				},
+				"name": "MAIF                    (IdF RdF)",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f541a7f6001853ad37"
+				},
+				"name": "MAIF                    (IdF RdF)",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f41fc2c347eebbd8ee97a"
+				},
+				"ref": "2002027",
+				"refInsurer": "",
+				"dateCreated": {
+					"$date": "2020-01-03T13:30:36.803Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Richard Migacz / Richard Migacz / 78490 Les Mesnuls",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Les Mesnuls",
+				"postal_code": "78490"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e130a821603b300ca7aa055"
+				},
+				"name": "Richard Migacz",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f42942c347e00258eea60"
+				},
+				"ref": "2002028",
+				"refInsurer": "233101H19-RENU1-1",
+				"dateCreated": {
+					"$date": "2020-01-03T13:33:08.659Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Sébastien Hirt / Sébastien Hirt / 78000 Versailles",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Versailles",
+				"postal_code": "78000"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e13033b7394d700953c51e7"
+				},
+				"name": "Sébastien Hirt",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52b9bd200185ec036"
+				},
+				"name": "MAE",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9adf"
+				},
+				"name": "Véronique Bibal",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f430d2c347e58698eeb32"
+				},
+				"ref": "2002029",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T13:35:09.558Z"
+				},
+				"nature": "DDE",
+				"status": "css",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "transmis",
+				"statutChantier": "aplanifier",
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Souad Dorard / Souad Dorard / 77380 Combs-la-Ville",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Combs-la-Ville",
+				"postal_code": "77380"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e130b3b7394d700953c5d91"
+				},
+				"name": "Souad Dorard",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f43d72c347ee8718eec1e"
+				},
+				"ref": "2002030",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T13:38:31.690Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": null,
+				"statutFacture": "nonreglee",
+				"title": "Karaman Selahattin / Karaman Selahattin / 77130 Montereau-Fault-Yonne",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Montereau-Fault-Yonne",
+				"postal_code": "77130"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e1317e3821eb300928f914d"
+				},
+				"name": "Karaman Selahattin",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f49565bc001a412dd7"
+				},
+				"name": "MATMUT",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aaf"
+				},
+				"name": "Miao Ying Ho Ching",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f44642c347e643b8eecf6"
+				},
+				"ref": "2002031",
+				"refInsurer": "1971995-REN1",
+				"dateCreated": {
+					"$date": "2020-01-03T13:40:52.642Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Yves Lorach / Yves Lorach / 75011 Paris",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75011"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e1310021603b300ca7aa730"
+				},
+				"name": "Yves Lorach",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f66bd6db00188c9bb7"
+				},
+				"name": "AMF ASSURANCES",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f45432c347e7bc78eee1c"
+				},
+				"ref": "2002032",
+				"refInsurer": "195 023 083",
+				"dateCreated": {
+					"$date": "2020-01-03T13:44:35.884Z"
+				},
+				"policyNumber": "2776017",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": null,
+				"statutFacture": "nonreglee",
+				"title": "Alain Muet / Alain Muet / 38300 Bourgoin-Jallieu",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "CTO"
+			},
+			"addressObject": {
+				"city": "Bourgoin-Jallieu",
+				"postal_code": "38300"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f4adc1603b300ca7a34cc"
+				},
+				"name": "Alain Muet",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc2fe2d7001883d077"
+				},
+				"name": "Nicolas Combeaud"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf94658c0a80017a4fc95"
+				},
+				"name": "Lucie Delmas",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f46fe2c347e6b8f8eef2a"
+				},
+				"ref": "2002033",
+				"refInsurer": "1932488-IH-M-059",
+				"dateCreated": {
+					"$date": "2020-01-03T13:51:58.291Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Virginie Tavukcu / Virginie Tavukcu / 06300 Nice",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "SDE"
+			},
+			"addressObject": {
+				"city": "Nice",
+				"postal_code": "06300"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e1314610d17a001126fd2c6"
+				},
+				"name": "Virginie Tavukcu",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f66bd6db00188c9bc2"
+				},
+				"name": "MFA",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f66bd6db00188c9bc2"
+				},
+				"name": "MFA",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f479f2c347ead3a8ef01f"
+				},
+				"ref": "2002034",
+				"refInsurer": "193M77223GN",
+				"dateCreated": {
+					"$date": "2020-01-03T13:54:39.836Z"
+				},
+				"policyNumber": "980000592927M",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": null,
+				"statutFacture": "nonreglee",
+				"title": "Armand Grumberg / Armand Grumberg / 75008 Paris",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75008"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e13206f3566e30098c1eb92"
+				},
+				"name": "Armand Grumberg",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f49565bc001a412dd7"
+				},
+				"name": "MATMUT",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc9565bc001a412d39"
+				},
+				"name": "Joana Miranda"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f48412c347e18368ef0fb"
+				},
+				"ref": "2002035",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T13:57:21.108Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Elodie Ernatus / Elodie Ernatus / 94440 Villecresnes",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Villecresnes",
+				"postal_code": "94440"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e131b243566e30098c1e6c0"
+				},
+				"name": "Elodie Ernatus",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f52fe2d7001883d18d"
+				},
+				"name": "MACIF",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f48912c347e6c198ef1d3"
+				},
+				"ref": "2002036",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-03T13:58:41.874Z"
+				},
+				"nature": "DDE",
+				"status": "css",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Eric Munier /  / 78180 Montigny-le-Bretonneux",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Montigny-le-Bretonneux",
+				"postal_code": "78180"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e1328560d17a001126fe03d"
+				},
+				"name": "Eric Munier",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f49565bc001a412dd7"
+				},
+				"name": "MATMUT",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f48d82c347ec8e98ef2ab"
+				},
+				"ref": "2002037",
+				"refInsurer": "M191235679R C33G 55",
+				"dateCreated": {
+					"$date": "2020-01-03T13:59:52.969Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Marion Augustin Valier / Marion Augustin Valier / 92240 Malakoff",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Malakoff",
+				"postal_code": "92240"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e12ec6ba1deb50098c22530"
+				},
+				"name": "Marion Augustin Valier",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f541a7f6001853ad37"
+				},
+				"name": "MAIF                    (IdF RdF)",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9adf"
+				},
+				"name": "Véronique Bibal",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f541a7f6001853ad37"
+				},
+				"name": "MAIF                    (IdF RdF)",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f55882c347e7c908ef647"
+				},
+				"ref": "2002038",
+				"refInsurer": "1957883-REN2/ 1",
+				"dateCreated": {
+					"$date": "2020-01-03T14:54:00.701Z"
+				},
+				"nature": "DDE",
+				"status": "css",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "AZARIAS Stéphane / 94500 Champigny-Sur-Marne",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Champigny-Sur-Marne",
+				"postal_code": "94500"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e131fa216976c00f5743ba4"
+				},
+				"name": "Stéphane Henri Azarias",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f72fe2d7001883d1c9"
+				},
+				"name": "CARDIF IARD",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa4"
+				},
+				"name": "Michel Lacoste"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cc3a390f0049bbb786"
+				},
+				"name": "Nathalie Wimart",
+				"portfolio": false
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0f2205475d3300d82f8f5b"
+				},
+				"name": "IMH - Inter Mutuelles Habitat",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f5bb32c347e2c7f8ef812"
+				},
+				"ref": "2002039",
+				"refInsurer": "",
+				"dateCreated": {
+					"$date": "2020-01-03T15:20:19.473Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Mohamed Boutebba / 75019 Paris",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75019"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f31cfa8d83d008bf2bfcf"
+				},
+				"name": "Paris Habitat - Dtne"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e0f76b82c347e057f8efb9e"
+				},
+				"ref": "2002040",
+				"refInsurer": "0000007383797473",
+				"dateCreated": {
+					"$date": "2020-01-03T17:15:36.253Z"
+				},
+				"policyNumber": "0000001385462704",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Claude Masson / Claude Masson / 78760 Jouars-Pontchartrain",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Jouars-Pontchartrain",
+				"postal_code": "78760"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0f7c3f0b37200056e38bc2"
+				},
+				"name": "Claude Masson",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58de0"
+				},
+				"name": "Laurence Bouznad"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e1211be2c347eb2868f00b6"
+				},
+				"ref": "2002041",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-05T16:41:34.816Z"
+				},
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "incomplet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": null,
+				"statutFacture": "nonreglee",
+				"title": "Sibille / Sibille / 75006 Paris",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75006"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e1218091603b300ca7a6952"
+				},
+				"name": "Sibille",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f82b9bd200185ec0c3"
+				},
+				"name": "HISCOX France",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa9"
+				},
+				"name": "Stéphane Cancela"
+			},
+			"advObject": {
+				"_id": {
+					"$id": "5dfcf8cd6bd6db00188c9adf"
+				},
+				"name": "Véronique Bibal",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e12e6992c347e783c8f04fa"
+				},
+				"ref": "2002042",
+				"refInsurer": "7479218073",
+				"dateCreated": {
+					"$date": "2020-01-06T07:49:45.577Z"
+				},
+				"policyNumber": "5576854804",
+				"nature": "DDE",
+				"status": "assigned",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": "terminee",
+				"statutDevis": "termine",
+				"statutChantier": "facture",
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Rosalia Lourenco / Rosalia Lourenco / 92800 Puteaux",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Puteaux",
+				"postal_code": "92800"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e12e8a37394d700953c2bb6"
+				},
+				"name": "Rosalia Lourenco",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8ccbd26810018d58de0"
+				},
+				"name": "Laurence Bouznad"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5dfcf8f43a390f0049bbb836"
+				},
+				"name": "AXA France",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e12f9602c347e6cfb8f0a93"
+				},
+				"ref": "2002043",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-06T09:09:52.583Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Idriss Janfaoui / 94500 Champigny-Sur-Marne",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Champigny-Sur-Marne",
+				"postal_code": "94500"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f0ea2475d3300d82f7b30"
+				},
+				"name": "Paris Habitat - Dtvm"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e12ff092c347e0cf58f0cdf"
+				},
+				"ref": "2002044",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-06T09:34:01.831Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "transmis",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Mahamadou Kante / 94500 Champigny Sur Marne",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Champigny Sur Marne",
+				"postal_code": "94500"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f0ea2475d3300d82f7b30"
+				},
+				"name": "Paris Habitat - Dtvm"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e1303d32c347e7cb48f0e6f"
+				},
+				"ref": "2002045",
+				"refInsurer": "B1980432871",
+				"dateCreated": {
+					"$date": "2020-01-06T09:54:27.551Z"
+				},
+				"nature": "DDE",
+				"status": "css",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Equad Rcc / Buckwell / 78400 Chatou",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Chatou",
+				"postal_code": "78400"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e1307010b37200056e3d78c"
+				},
+				"name": "Equad Rcc",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5dfcf8f63a390f0049bbb8a7"
+				},
+				"name": "Sas Teb 1",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc9565bc001a412d39"
+				},
+				"name": "Joana Miranda"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e1307010b37200056e3d78c"
+				},
+				"name": "Equad Rcc",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e13053c2c347e42308f0f65"
+				},
+				"ref": "2002046",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-06T10:00:28.965Z"
+				},
+				"nature": "3D",
+				"status": "css",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Paris Habitat / Madeleine Allaux / 75019 Paris",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Paris",
+				"postal_code": "75019"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f31cfa8d83d008bf2bfcf"
+				},
+				"name": "Paris Habitat - Dtne"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e130af52c347e6d038f1182"
+				},
+				"ref": "2002047",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-06T10:24:53.982Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Yakhouba Timera / 94500 Champigny-Sur-Marne",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Champigny-Sur-Marne",
+				"postal_code": "94500"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f31cfa8d83d008bf2bfcf"
+				},
+				"name": "Paris Habitat - Dtne"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e130f652c347eb8b28f135a"
+				},
+				"ref": "2002048",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-06T10:43:49.380Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Trinidad Hoffmann / 94350 Villiers-Sur-Marne",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Villiers-Sur-Marne",
+				"postal_code": "94350"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f0ea2475d3300d82f7b30"
+				},
+				"name": "Paris Habitat - Dtvm"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {},
+			"caseObject": {
+				"_id": {
+					"$id": "5e1314052c347e8e978f1577"
+				},
+				"ref": "2002049",
+				"refInsurer": "(Non définie)",
+				"dateCreated": {
+					"$date": "2020-01-06T11:03:33.608Z"
+				},
+				"nature": "3D",
+				"status": "assigned",
+				"profession3DPunaise": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": "termine",
+				"statutChantier": null,
+				"statutCloture": "invalide",
+				"statutFacture": "soldee",
+				"title": "Paris Habitat / Houria Selami / 94500 Champigny-Sur-Marne",
+				"metiers": [
+					"profession3DPunaise"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Champigny-Sur-Marne",
+				"postal_code": "94500"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"entity": "Organization",
+				"portfolio": false
+			},
+			"platformObject": {
+				"_id": {
+					"$id": "5e0f0ea2475d3300d82f7b30"
+				},
+				"name": "Paris Habitat - Dtvm"
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cd41a7f6001853ac5e"
+				},
+				"name": "Walid Dhaouadi"
+			},
+			"mandatorObject": {
+				"_id": {
+					"$id": "5e0df591475d3300d82f2d52"
+				},
+				"name": "PARIS HABITAT",
+				"portfolio": false
+			}
+		},
+		{
+			"creatorObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa9"
+				},
+				"name": "Stéphane Cancela"
+			},
+			"caseObject": {
+				"_id": {
+					"$id": "5e131b9e0b37200056e3eeb9"
+				},
+				"ref": "2002050",
+				"refInsurer": "2019871462-01",
+				"dateCreated": {
+					"$date": "2020-01-06T11:35:58.259Z"
+				},
+				"policyNumber": "0548466W",
+				"nature": "DDE",
+				"status": "css",
+				"professionRDF": true,
+				"statutAdministratif": "complet",
+				"statutReconnaissance": null,
+				"statutDevis": null,
+				"statutChantier": null,
+				"statutCloture": null,
+				"statutFacture": null,
+				"title": "Aziz Bouddour / Aziz Bouddour / 77500 Chelles",
+				"metiers": [
+					"professionRDF"
+				],
+				"region": "IDF"
+			},
+			"addressObject": {
+				"city": "Chelles",
+				"postal_code": "77500"
+			},
+			"customerObject": {
+				"_id": {
+					"$id": "5e131e511603b300ca7ab388"
+				},
+				"name": "Aziz Bouddour",
+				"entity": "Contact",
+				"portfolio": false
+			},
+			"insurerObject": {
+				"_id": {
+					"$id": "5e131e510d17a001126fdd45"
+				},
+				"name": "Groupama Val de Loire",
+				"portfolio": false
+			},
+			"commercialObject": {
+				"_id": {
+					"$id": "5dfcf8cc6bd6db00188c9aa9"
+				},
+				"name": "Stéphane Cancela"
+			}
+		}
+	],
+	"totalCount": 17636,
+	"defs": {
+		"caseObject": "Case",
+		"addressObject": "iwe-PostalAddress",
+		"participantObject": "ClaimParticipant",
+		"creatorObject": "Contact",
+		"customerObject": "Organization",
+		"insurerObject": "Organization",
+		"advObject": "Contact",
+		"commercialObject": "Contact",
+		"siteManagerObject": "Contact",
+		"mandatorObject": "Contact",
+		"platformObject": "Organization"
+	},
+	"currentPage": 1,
+	"perPage": 50
+}

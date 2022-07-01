@@ -1,0 +1,2968 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote"
+        },
+        "curies": {
+            "name": "iwe",
+            "href": "/api/docs/resources/{rel}.md",
+            "templated": true
+        },
+        "iwe:trash": {
+            "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/trash"
+        }
+    },
+    "_embedded": {
+        "results": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Quote"
+                    },
+                    "relatedCase": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "relatedRecognition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a"
+                    },
+                    "lines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/lines"
+                    },
+                    "vatDeliveriesLines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/vatDeliveriesLines"
+                    },
+                    "deliveries": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries"
+                    },
+                    "metiersNaturesRepartition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/metiersNaturesRepartition"
+                    },
+                    "documents": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/documents"
+                    },
+                    "rooms": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/rooms"
+                    },
+                    "bedBug": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/bedBug"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/comments"
+                    },
+                    "iwe:audit-log": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/audit-log"
+                    },
+                    "iwe:sharing": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/_sharing"
+                    },
+                    "iwe:trash": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/trash"
+                    },
+                    "iwe:freeze": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/freeze"
+                    }
+                },
+                "_embedded": {
+                    "lines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/lines/5e203983f5656e001888ed65"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "relatedInvoice": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e600b4e0b35f0006dc2f3a4"
+                                },
+                                "relatedConstructionSite": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/ConstructionSite/5e308cd089cdfd001736a208"
+                                },
+                                "iwe:refs": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/lines/5e203983f5656e001888ed65/_refs/{ref}",
+                                    "templated": true
+                                }
+                            },
+                            "label": "Recherche de fuite visuelle AXA",
+                            "unit": "F",
+                            "unitPrice": 130,
+                            "amountN": 0,
+                            "amountE": 0,
+                            "amountD": 0,
+                            "amountL": 0,
+                            "priceType": "N",
+                            "unitPriceDiscounted": 130,
+                            "quantity": 1,
+                            "globalAmount": 130,
+                            "pendingNature": "RDF",
+                            "pendingType": "fuite",
+                            "treatmentType": "1",
+                            "rnf": false,
+                            "vi": false,
+                            "billing": true,
+                            "horsTextile": true,
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "modifiedBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:23:00.051Z"
+                            },
+                            "dateModified": {
+                                "$date": "2020-12-17T09:27:31.977Z"
+                            },
+                            "_id": {
+                                "$id": "5e203983f5656e001888ed65"
+                            },
+                            "version": 6,
+                            "room": null,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/lines"
+                        }
+                    ],
+                    "vatDeliveriesLines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/vatDeliveriesLines/5e79c43dce3a7f001be0fcc5"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "tvaFR": 0,
+                            "tvaLU": 0,
+                            "tva": 0,
+                            "montantHT": 0,
+                            "totalTvaCalcul": 0,
+                            "totalTva": 0,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 0,
+                            "totalTvaCalculFActure": 0,
+                            "totalTvaFacture": 0,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 1,
+                            "isUsed": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:26:37.791Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c43dce3a7f001be0fcc5"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/vatDeliveriesLines/5e79c43e48aeb1001bfb72c2"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "tvaFR": 0.055,
+                            "tvaLU": 0.03,
+                            "tva": 0.055,
+                            "montantHT": 0,
+                            "totalTvaCalcul": 0,
+                            "totalTva": 0,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 0,
+                            "totalTvaCalculFActure": 0,
+                            "totalTvaFacture": 0,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 2,
+                            "isUsed": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:26:38.382Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c43e48aeb1001bfb72c2"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/vatDeliveriesLines/5e79c43ef5679c001bec252c"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "tvaFR": 0.1,
+                            "tvaLU": 0.08,
+                            "tva": 0.1,
+                            "montantHT": 0,
+                            "totalTvaCalcul": 0,
+                            "totalTva": 0,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 0,
+                            "totalTvaCalculFActure": 0,
+                            "totalTvaFacture": 0,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 3,
+                            "isUsed": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:26:39.524Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c43ef5679c001bec252c"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/vatDeliveriesLines/5e79c44048aeb1001bfb72c9"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "tvaFR": 0.2,
+                            "tvaLU": 0.17,
+                            "tva": 0.2,
+                            "montantHT": 130,
+                            "totalTvaCalcul": 26,
+                            "totalTva": 26,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 130,
+                            "totalTvaCalculFActure": 26,
+                            "totalTvaFacture": 26,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 2,
+                            "isUsed": true,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:26:40.673Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c44048aeb1001bfb72c9"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        }
+                    ],
+                    "deliveries": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b2a"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 1,
+                            "pendingNature": "MES",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b2a"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b2c"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 2,
+                            "pendingNature": "BAT",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b2c"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b2e"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 3,
+                            "pendingNature": "MOB",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b2e"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b30"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 4,
+                            "pendingNature": "MAT",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b30"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b32"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 5,
+                            "pendingNature": "DEB",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b32"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b34"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 6,
+                            "pendingNature": "GRV",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b34"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b36"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 7,
+                            "pendingNature": "ASS",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b36"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b38"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 8,
+                            "pendingNature": "TEX",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b38"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b3a"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 9,
+                            "pendingNature": "LOG",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b3a"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b3c"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 130,
+                            "amountNotBilling": 0,
+                            "amountBilling": 130,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 130,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 130,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 26,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 26,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 156,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 156,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 10,
+                            "pendingNature": "RDF",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b3c"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b3e"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 11,
+                            "pendingNature": "REN",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b3e"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/deliveries/5e2039724b3cf30018ad1b40"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 12,
+                            "pendingNature": "PUN",
+                            "createdBy": {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-01-16T10:22:42.201Z"
+                            },
+                            "_id": {
+                                "$id": "5e2039724b3cf30018ad1b40"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        }
+                    ],
+                    "metiersNaturesRepartition": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/metiersNaturesRepartition/5fda43fa59e1a10024bac6a7"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteMetierNature"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 0,
+                            "amountWithoutCS": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscountedWithoutCS": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "pendingNature": "RDF",
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-12-16T17:29:30.577Z"
+                            },
+                            "_id": {
+                                "$id": "5fda43fa59e1a10024bac6a7"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/metiersNaturesRepartition"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/metiersNaturesRepartition/5fdb2484dfa7c900247ec8db"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteMetierNature"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                                }
+                            },
+                            "amount": 130,
+                            "amountWithoutCS": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 130,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscountedWithoutCS": 0,
+                            "amountDiscounted": 130,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 130,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 26,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 26,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 156,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 156,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "pendingNature": "RDF",
+                            "pendingType": "fuite",
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-12-17T09:27:32.169Z"
+                            },
+                            "_id": {
+                                "$id": "5fdb2484dfa7c900247ec8db"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/metiersNaturesRepartition"
+                        }
+                    ],
+                    "documents": [],
+                    "rooms": [],
+                    "bedBug": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/bedBug"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            },
+                            "iwe:definition": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteBedBug"
+                            },
+                            "iwe:case": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                            },
+                            "iwe:self-parent": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26"
+                            }
+                        },
+                        "createdBy": {
+                            "$id": "5dfcf8cc6bd6db00188c9aaf"
+                        },
+                        "dateCreated": {
+                            "$date": "2020-01-16T10:22:42.201Z"
+                        },
+                        "_id": {
+                            "$id": "5e2039724b3cf30018ad1b42"
+                        },
+                        "version": 1,
+                        "_meta": {},
+                        "_resourcePath": "/case/Quote/bedBug"
+                    },
+                    "comments": [],
+                    "_sharing": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e2039724b3cf30018ad1b26/_sharing"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            }
+                        },
+                        "version": 3,
+                        "owner": {
+                            "$id": "5dfcf8cc6bd6db00188c9aaf"
+                        },
+                        "allOwners": [
+                            {
+                                "$id": "5dfcf8cc6bd6db00188c9aaf"
+                            }
+                        ],
+                        "level": "public",
+                        "organizations": [
+                            {
+                                "$id": "5e04e6485892dc00828d30ab"
+                            }
+                        ],
+                        "cUsers": [],
+                        "cOrganizations": []
+                    }
+                },
+                "ref": "2002207-D1.1",
+                "caseQuoteNumber": 1,
+                "title": "RDF Visuelle Severine Deluc",
+                "titlev": "RDF Visuelle Severine Deluc v1",
+                "date": {
+                    "$date": "2020-01-16T11:42:49.089Z"
+                },
+                "status": "mandatorAgreement",
+                "quoteSignedDirect": true,
+                "approvedBy": "accord",
+                "validatedDate": {
+                    "$date": "2020-01-16T11:42:49.089Z"
+                },
+                "sendDate": {
+                    "$date": "2020-03-04T20:10:45.076Z"
+                },
+                "mandatorAgreementDate": {
+                    "$date": "2020-03-04T20:10:47.187Z"
+                },
+                "terminatedDate": {
+                    "$date": "2020-03-04T20:10:47.187Z"
+                },
+                "depositInvoicePercent": 0,
+                "depositInvoiceToDo": false,
+                "askDepositInvoice": "no",
+                "globalAmount": 130,
+                "globalAmountNotBilling": 0,
+                "globalAmountBilling": 130,
+                "globalAmountDone": 0,
+                "globalAmountNotDone": 0,
+                "globalAmountCancel": 0,
+                "discount": 0,
+                "totalHTVATClassicBeforDiscount": 130,
+                "totalHTVATLessBeforDiscount": 0,
+                "totalHTVATSmallBeforDiscount": 0,
+                "totalHTClassicVatAmount": 130,
+                "totalHTVatLessAmount": 0,
+                "totalHTVatSmallAmount": 0,
+                "globalVatAmount": 26,
+                "globalVatAmountNotBilling": 0,
+                "globalVatAmountBilling": 26,
+                "globalVatAmountDone": 0,
+                "globalVatAmountNotDone": 0,
+                "globalVatAmountCancel": 0,
+                "classicVatAmount": 26,
+                "vatLessAmount": 0,
+                "vatSmallAmount": 0,
+                "vatLessOrSmallAmount": 0,
+                "totalTaxInclusive": 156,
+                "totalTaxInclusiveNotBilling": 0,
+                "totalTaxInclusiveBilling": 156,
+                "totalTaxInclusiveNotDone": 0,
+                "totalTaxInclusiveDone": 0,
+                "totalTaxInclusiveCancel": 0,
+                "brand": "AXA",
+                "quoteVersion": "1",
+                "dunningDate": {
+                    "$date": "2020-03-06T00:00:00.000Z"
+                },
+                "validatedBy": {
+                    "$id": "5e12fa013566e30098c1bfda"
+                },
+                "sendBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "terminatedBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "professionDecontamination": null,
+                "professionRDF": true,
+                "professionDewatering": null,
+                "professionPurification": null,
+                "professionTextile": null,
+                "profession3DPunaise": null,
+                "professionRenovation": null,
+                "professionAsbestosRemoval": null,
+                "metiers": [
+                    "professionRDF"
+                ],
+                "nbTextile": 0,
+                "nbTextileRNF": 0,
+                "nbTextileHorsRNF": 0,
+                "amountTextileRNF": 0,
+                "txVatReduce": "no",
+                "paysTva": "FR",
+                "amountTextileHorsRNF": 0,
+                "modaliteIntervention": "Selon la situation rencontrée, Unipromotion mettra en œuvre les moyens suivants, tant que nécessaires à l’accomplissement de la mission, au choix du technicien : \n\n     • Constat des dégâts et désordres correspondant au sinistre déclaré \n     • Tout constat de dégât ou de désordre autre, utile dans la recherche \n     • Cartographie des zones humides à l’humidimètre et/ou à la caméra thermographique \n     • Contrôle manométrique et/ou mise en épreuve conforme aux DTU, des circuits d’eau concernés, suivant les possibilités d'accès aux différents circuits \n     • Sur les circuits fuyards, localisation des fuites par système électronique ou par injection de gaz traceur \n     • Contrôle de l’état des conduites d’évacuations apparentes et encastrées, visuel ou par vidéo endoscopie, par thermographie infrarouge ou par injection de fumigène \n     • Essai et mise en charge des collecteurs et branchements par obturateur suivant les possibilités d’accès, recherche par eaux colorées \n     • Contrôles endoscopiques et diagnostiques des appareils et installations sanitaires dans les zones concernées par les recherches pouvant générer des désordres \n     • Détection par système électromagnétique des canalisations après passage de fibre, pour report exact sur les plans fournis \n     • echerche de fuite et repérage du cheminement des canalisations suspectes par caméra thermographique \n     • Injection de fumigène ou de gaz traceur dans des revêtements de toiture, mise en charge d’éléments de toiture avec produits traçants \n     • Suivant les résultats obtenus et la nature des recherches, le technicien sur place peut envisager d’utiliser d’autres techniques de recherche appropriées ainsi qu’une extension des recherches hors zones concernées afin de mener à bien sa mission (comme les caves ou les locaux annexes). \n\nÀ l’issue de sa mission, le technicien rédigera un rapport de recherche de fuite circonstancié.",
+                "conditionIntervention": "Défaut d’accès : \n Pour tout déplacement annulé n'ayant pas fait l'objet d'information à notre service par mail ou par téléphone 24 heures avant la date d’intervention, des frais de gestion et de déplacement de 192 €/TTC seront facturés au bénéficiaire de la recherche de fuite.\nAfin d’effectuer nos investigations dans les meilleures conditions, il est impératif : \n     • D’accéder à toutes les zones concernées par notre mission ou susceptibles d’être à l’origine des désordres.\n     • D’accéder à l’ensemble des circuits et réseaux à contrôler, qui devront être manipulables et maîtrisables le jour de l’intervention.\n\n Dans le cas contraire, nous en réfèrerons à notre mandant pour déterminer la suite à donner. \n\nRecherche de fuite non-destructive\nDans le cadre d’une mission de recherche de fuite non-destructive, nous ne pouvons aggraver la situation rencontrée, dans tous les locaux ou installations concernées, à l’exception des situations suivantes : \n     • Augmentation de l’humidité constatée à notre arrivée, sur un support non sec (suite par exemple à un test d’écoulement)\n     • Ajout d’un produit traçant, visible après notre intervention, sur un support déjà évidemment dégradé et destiné à être rénové\n\n En cas d’action nécessaire à l’investigation présentant un risque de dégradation, nous demanderons l’accord exprès du propriétaire du bien ou l’accord de l’expert ou du mandant avant de procéder.\n\n Notre offre ne tient pas compte de la remise éventuelle en état des tampons de visite, des regards et autres organes des installations d’assainissements éventuellement endommagés lors de leur ouverture et de leur contrôle pour les besoins de l’inspection, compte tenu de leur état de vétusté, ainsi que des travaux préparatoires, pour mener à bien nos investigations (fouilles, mise en place de tampons hermétiques, création de fenêtres de visite, nettoyage ou hydro curage, etc..).\n\nLe montant de nos prestations est forfaitaire et estimatif, tous dépassements horaires feront l’objet d’une facturation supplémentaire.",
+                "mission": "Recherche non destructive de fuite",
+                "relatedCaseId": {
+                    "$id": "5e203654f22e45001a839800"
+                },
+                "workloadEstimateDeco": 0,
+                "createdBy": {
+                    "$id": "5dfcf8cc6bd6db00188c9aaf"
+                },
+                "modifiedBy": {
+                    "$id": "5dfa7ca29565bc001a3f78c5"
+                },
+                "dateCreated": {
+                    "$date": "2020-01-16T10:22:42.201Z"
+                },
+                "dateModified": {
+                    "$date": "2020-04-08T17:10:28.812Z"
+                },
+                "_id": {
+                    "$id": "5e2039724b3cf30018ad1b26"
+                },
+                "version": 11,
+                "_meta": {
+                    "tags": {
+                        "documents": [
+                            {
+                                "_id": {
+                                    "$id": "5e203972f22e45001a839e08"
+                                },
+                                "name": "photo-1"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e2039722445100018f5d9df"
+                                },
+                                "name": "photo-2"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e203972c8873f001850deee"
+                                },
+                                "name": "photo-3"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e203972f5656e001888ed61"
+                                },
+                                "name": "photo-4"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e203972d6a8c70046fee52b"
+                                },
+                                "name": "photo-5"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e2039729fe468001853611d"
+                                },
+                                "name": "photo-6"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e203972c8873f001850def0"
+                                },
+                                "name": "photo-7"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e203972f5656e001888ed63"
+                                },
+                                "name": "photo-8"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e2039724b3cf30018ad1b48"
+                                },
+                                "name": "photo-9"
+                            }
+                        ]
+                    },
+                    "_overriddenFields": {
+                        "title": true
+                    },
+                    "errors": []
+                },
+                "_resourcePath": "/case/Quote"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                    },
+                    "curies": {
+                        "name": "iwe",
+                        "href": "/api/docs/resources/{rel}.md",
+                        "templated": true
+                    },
+                    "iwe:definition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/Quote"
+                    },
+                    "recipient": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/participants/5e203654f22e45001a839896"
+                    },
+                    "relatedCase": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800"
+                    },
+                    "relatedRecognition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Case/5e203654f22e45001a839800/recognitions/5e203920d6a8c70046fee45a"
+                    },
+                    "lines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/lines"
+                    },
+                    "vatDeliveriesLines": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/vatDeliveriesLines"
+                    },
+                    "deliveries": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries"
+                    },
+                    "metiersNaturesRepartition": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/metiersNaturesRepartition"
+                    },
+                    "documents": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/documents"
+                    },
+                    "rooms": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/rooms"
+                    },
+                    "bedBug": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/bedBug"
+                    },
+                    "comments": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/comments"
+                    },
+                    "iwe:audit-log": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/audit-log"
+                    },
+                    "iwe:sharing": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/_sharing"
+                    },
+                    "iwe:trash": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/trash"
+                    },
+                    "iwe:freeze": {
+                        "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/freeze"
+                    }
+                },
+                "_embedded": {
+                    "lines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/lines/5e3ac7377f839d001879b7ef"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteLine"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "relatedInvoice": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Invoice/5e601463a734da001a772315"
+                                },
+                                "relatedConstructionSite": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/ConstructionSite/5e3ac7db7f839d001879b89a"
+                                },
+                                "iwe:refs": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/lines/5e3ac7377f839d001879b7ef/_refs/{ref}",
+                                    "templated": true
+                                }
+                            },
+                            "label": "RDF",
+                            "unit": "F",
+                            "unitPrice": 460,
+                            "amountN": 0,
+                            "amountE": 0,
+                            "amountD": 0,
+                            "amountL": 0,
+                            "priceType": "N",
+                            "unitPriceDiscounted": 460,
+                            "quantity": 1,
+                            "globalAmount": 460,
+                            "pendingNature": "RDF",
+                            "pendingType": "fuite",
+                            "treatmentType": "1",
+                            "rnf": false,
+                            "vi": false,
+                            "billing": true,
+                            "horsTextile": true,
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "modifiedBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:46:31.856Z"
+                            },
+                            "dateModified": {
+                                "$date": "2020-12-17T09:28:14.877Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac7377f839d001879b7ef"
+                            },
+                            "version": 6,
+                            "room": null,
+                            "_meta": {
+                                "_overriddenFields": {
+                                    "unitPrice": true
+                                }
+                            },
+                            "_resourcePath": "/case/Quote/lines"
+                        }
+                    ],
+                    "vatDeliveriesLines": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/vatDeliveriesLines/5e79c6c81f82bf0043f669c7"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "tvaFR": 0,
+                            "tvaLU": 0,
+                            "tva": 0,
+                            "montantHT": 0,
+                            "totalTvaCalcul": 0,
+                            "totalTva": 0,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 0,
+                            "totalTvaCalculFActure": 0,
+                            "totalTvaFacture": 0,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 1,
+                            "isUsed": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:37:28.218Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c6c81f82bf0043f669c7"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/vatDeliveriesLines/5e79c6c81f82bf0043f669cd"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "tvaFR": 0.055,
+                            "tvaLU": 0.03,
+                            "tva": 0.055,
+                            "montantHT": 0,
+                            "totalTvaCalcul": 0,
+                            "totalTva": 0,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 0,
+                            "totalTvaCalculFActure": 0,
+                            "totalTvaFacture": 0,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 2,
+                            "isUsed": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:37:28.749Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c6c81f82bf0043f669cd"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/vatDeliveriesLines/5e79c6c9f5679c001bec298a"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "tvaFR": 0.1,
+                            "tvaLU": 0.08,
+                            "tva": 0.1,
+                            "montantHT": 0,
+                            "totalTvaCalcul": 0,
+                            "totalTva": 0,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 0,
+                            "totalTvaCalculFActure": 0,
+                            "totalTvaFacture": 0,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 3,
+                            "isUsed": false,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:37:29.349Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c6c9f5679c001bec298a"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/vatDeliveriesLines/5e79c6c9ff79fb034eaae13c"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/VatDeliveriesLines"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "tvaFR": 0.2,
+                            "tvaLU": 0.17,
+                            "tva": 0.2,
+                            "montantHT": 460,
+                            "totalTvaCalcul": 92,
+                            "totalTva": 92,
+                            "montantHTNonFacture": 0,
+                            "totalTvaCalculNonFActure": 0,
+                            "totalTvaNonFacture": 0,
+                            "montantHTFacture": 460,
+                            "totalTvaCalculFActure": 92,
+                            "totalTvaFacture": 92,
+                            "montantHTNonFait": 0,
+                            "totalTvaCalculNonFait": 0,
+                            "totalTvaNonFait": 0,
+                            "montantHTFait": 0,
+                            "totalTvaCalculFait": 0,
+                            "totalTvaFait": 0,
+                            "montantHTAnnule": 0,
+                            "totalTvaCalculAnnule": 0,
+                            "totalTvaAnnule": 0,
+                            "displayOrder": 2,
+                            "isUsed": true,
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-03-24T08:37:29.925Z"
+                            },
+                            "_id": {
+                                "$id": "5e79c6c9ff79fb034eaae13c"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/vatDeliveriesLines"
+                        }
+                    ],
+                    "deliveries": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b60c"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 1,
+                            "pendingNature": "MES",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b60c"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b60e"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 2,
+                            "pendingNature": "BAT",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b60e"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b610"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 3,
+                            "pendingNature": "MOB",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b610"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b612"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 4,
+                            "pendingNature": "MAT",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b612"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b614"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 5,
+                            "pendingNature": "DEB",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b614"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b616"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 6,
+                            "pendingNature": "GRV",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b616"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b618"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 7,
+                            "pendingNature": "ASS",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b618"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b61a"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 8,
+                            "pendingNature": "TEX",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b61a"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b61c"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 9,
+                            "pendingNature": "LOG",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b61c"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b61e"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 460,
+                            "amountNotBilling": 0,
+                            "amountBilling": 460,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 460,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 460,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 92,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 92,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 552,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 552,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 10,
+                            "pendingNature": "RDF",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b61e"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b620"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 11,
+                            "pendingNature": "REN",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b620"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/deliveries/5e3ac6107f839d001879b622"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteDelivery"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "displayOrder": 12,
+                            "pendingNature": "PUN",
+                            "createdBy": {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-02-05T13:41:36.321Z"
+                            },
+                            "_id": {
+                                "$id": "5e3ac6107f839d001879b622"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/deliveries"
+                        }
+                    ],
+                    "metiersNaturesRepartition": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/metiersNaturesRepartition/5fda442ebb18c909818b8a09"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteMetierNature"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 0,
+                            "amountWithoutCS": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 0,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscountedWithoutCS": 0,
+                            "amountDiscounted": 0,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 0,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 0,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 0,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 0,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 0,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "pendingNature": "RDF",
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-12-16T17:30:23.011Z"
+                            },
+                            "_id": {
+                                "$id": "5fda442ebb18c909818b8a09"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/metiersNaturesRepartition"
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/metiersNaturesRepartition/5fdb24ae48db920024850a2a"
+                                },
+                                "curies": {
+                                    "name": "iwe",
+                                    "href": "/api/docs/resources/{rel}.md",
+                                    "templated": true
+                                },
+                                "iwe:definition": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteMetierNature"
+                                },
+                                "iwe:case": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                },
+                                "iwe:self-parent": {
+                                    "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                                }
+                            },
+                            "amount": 460,
+                            "amountWithoutCS": 0,
+                            "amountNotBilling": 0,
+                            "amountBilling": 460,
+                            "amountDone": 0,
+                            "amountNotDone": 0,
+                            "amountCancel": 0,
+                            "amountDiscountedWithoutCS": 0,
+                            "amountDiscounted": 460,
+                            "amountNotBillingDiscounted": 0,
+                            "amountBillingDiscounted": 460,
+                            "amountDoneDiscounted": 0,
+                            "amountNotDoneDiscounted": 0,
+                            "amountCancelDiscounted": 0,
+                            "vatPercentageFRorLU": 0.2,
+                            "vatPercentageLU": 0.17,
+                            "vatPercentage": 0.2,
+                            "vatAmount": 92,
+                            "vatAmountNotBilling": 0,
+                            "vatAmountBilling": 92,
+                            "vatAmountDone": 0,
+                            "vatAmountNotDone": 0,
+                            "vatAmountCancel": 0,
+                            "globalAmount": 552,
+                            "globalAmountNotBilling": 0,
+                            "globalAmountBilling": 552,
+                            "globalAmountDone": 0,
+                            "globalAmountNotDone": 0,
+                            "globalAmountCancel": 0,
+                            "pendingNature": "RDF",
+                            "pendingType": "fuite",
+                            "createdBy": {
+                                "$id": "5dfa7ca29565bc001a3f78c5"
+                            },
+                            "dateCreated": {
+                                "$date": "2020-12-17T09:28:15.128Z"
+                            },
+                            "_id": {
+                                "$id": "5fdb24ae48db920024850a2a"
+                            },
+                            "version": 1,
+                            "_meta": {},
+                            "_resourcePath": "/case/Quote/metiersNaturesRepartition"
+                        }
+                    ],
+                    "documents": [],
+                    "rooms": [],
+                    "bedBug": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/bedBug"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            },
+                            "iwe:definition": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/dictionary/QuoteBedBug"
+                            },
+                            "iwe:case": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                            },
+                            "iwe:self-parent": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608"
+                            }
+                        },
+                        "createdBy": {
+                            "$id": "5dfcf8cc3a390f0049bbb786"
+                        },
+                        "dateCreated": {
+                            "$date": "2020-02-05T13:41:36.321Z"
+                        },
+                        "_id": {
+                            "$id": "5e3ac6107f839d001879b624"
+                        },
+                        "version": 1,
+                        "_meta": {},
+                        "_resourcePath": "/case/Quote/bedBug"
+                    },
+                    "comments": [],
+                    "_sharing": {
+                        "_links": {
+                            "self": {
+                                "href": "/api/5dfa7a9d6bd6db00188af000/case/Quote/5e3ac6107f839d001879b608/_sharing"
+                            },
+                            "curies": {
+                                "name": "iwe",
+                                "href": "/api/docs/resources/{rel}.md",
+                                "templated": true
+                            }
+                        },
+                        "version": 3,
+                        "owner": {
+                            "$id": "5dfcf8cc3a390f0049bbb786"
+                        },
+                        "allOwners": [
+                            {
+                                "$id": "5dfcf8cc3a390f0049bbb786"
+                            }
+                        ],
+                        "level": "public",
+                        "cUsers": [],
+                        "cOrganizations": [],
+                        "organizations": [
+                            {
+                                "$id": "5e04e6485892dc00828d30ab"
+                            }
+                        ]
+                    }
+                },
+                "ref": "2002207-D1.1",
+                "caseQuoteNumber": 1,
+                "title": "RDF Spécialisée Severine Deluc",
+                "titlev": "RDF Spécialisée Severine Deluc v1",
+                "date": {
+                    "$date": "2020-02-04T23:00:00.000Z"
+                },
+                "status": "mandatorAgreement",
+                "quoteSignedDirect": true,
+                "approvedBy": "accord",
+                "validatedDate": {
+                    "$date": "2020-02-05T13:48:26.294Z"
+                },
+                "sendDate": {
+                    "$date": "2020-02-05T13:48:34.807Z"
+                },
+                "mandatorAgreementDate": {
+                    "$date": "2020-03-04T20:49:32.292Z"
+                },
+                "terminatedDate": {
+                    "$date": "2020-03-04T20:49:32.292Z"
+                },
+                "depositInvoicePercent": 0,
+                "depositInvoiceToDo": false,
+                "askDepositInvoice": "no",
+                "globalAmount": 460,
+                "globalAmountNotBilling": 0,
+                "globalAmountBilling": 460,
+                "globalAmountDone": 0,
+                "globalAmountNotDone": 0,
+                "globalAmountCancel": 0,
+                "discount": 0,
+                "totalHTVATClassicBeforDiscount": 460,
+                "totalHTVATLessBeforDiscount": 0,
+                "totalHTVATSmallBeforDiscount": 0,
+                "totalHTClassicVatAmount": 460,
+                "totalHTVatLessAmount": 0,
+                "totalHTVatSmallAmount": 0,
+                "globalVatAmount": 92,
+                "globalVatAmountNotBilling": 0,
+                "globalVatAmountBilling": 92,
+                "globalVatAmountDone": 0,
+                "globalVatAmountNotDone": 0,
+                "globalVatAmountCancel": 0,
+                "classicVatAmount": 92,
+                "vatLessAmount": 0,
+                "vatSmallAmount": 0,
+                "vatLessOrSmallAmount": 0,
+                "totalTaxInclusive": 552,
+                "totalTaxInclusiveNotBilling": 0,
+                "totalTaxInclusiveBilling": 552,
+                "totalTaxInclusiveNotDone": 0,
+                "totalTaxInclusiveDone": 0,
+                "totalTaxInclusiveCancel": 0,
+                "brand": "AXA",
+                "quoteVersion": "1",
+                "dunningDate": {
+                    "$date": "2020-02-07T00:00:00.000Z"
+                },
+                "validatedBy": {
+                    "$id": "5e0daff97394d700953b2397"
+                },
+                "sendBy": {
+                    "$id": "5e0daff97394d700953b2397"
+                },
+                "terminatedBy": {
+                    "$id": "5e06299141a7f60018560814"
+                },
+                "professionDecontamination": null,
+                "professionRDF": true,
+                "professionDewatering": null,
+                "professionPurification": null,
+                "professionTextile": null,
+                "profession3DPunaise": null,
+                "professionRenovation": null,
+                "professionAsbestosRemoval": null,
+                "metiers": [
+                    "professionRDF"
+                ],
+                "nbTextile": 0,
+                "nbTextileRNF": 0,
+                "nbTextileHorsRNF": 0,
+                "amountTextileRNF": 0,
+                "txVatReduce": "no",
+                "paysTva": "FR",
+                "amountTextileHorsRNF": 0,
+                "modaliteIntervention": "Selon la situation rencontrée, Unipromotion mettra en œuvre les moyens suivants, tant que nécessaires à l’accomplissement de la mission, au choix du technicien : \n\n     • Constat des dégâts et désordres correspondant au sinistre déclaré \n     • Tout constat de dégât ou de désordre autre, utile dans la recherche \n     • Cartographie des zones humides à l’humidimètre et/ou à la caméra thermographique \n     • Contrôle manométrique et/ou mise en épreuve conforme aux DTU, des circuits d’eau concernés, suivant les possibilités d'accès aux différents circuits \n     • Sur les circuits fuyards, localisation des fuites par système électronique ou par injection de gaz traceur \n     • Contrôle de l’état des conduites d’évacuations apparentes et encastrées, visuel ou par vidéo endoscopie, par thermographie infrarouge ou par injection de fumigène \n     • Essai et mise en charge des collecteurs et branchements par obturateur suivant les possibilités d’accès, recherche par eaux colorées \n     • Contrôles endoscopiques et diagnostiques des appareils et installations sanitaires dans les zones concernées par les recherches pouvant générer des désordres \n     • Détection par système électromagnétique des canalisations après passage de fibre, pour report exact sur les plans fournis \n     • echerche de fuite et repérage du cheminement des canalisations suspectes par caméra thermographique \n     • Injection de fumigène ou de gaz traceur dans des revêtements de toiture, mise en charge d’éléments de toiture avec produits traçants \n     • Suivant les résultats obtenus et la nature des recherches, le technicien sur place peut envisager d’utiliser d’autres techniques de recherche appropriées ainsi qu’une extension des recherches hors zones concernées afin de mener à bien sa mission (comme les caves ou les locaux annexes). \n\nÀ l’issue de sa mission, le technicien rédigera un rapport de recherche de fuite circonstancié.",
+                "conditionIntervention": "Défaut d’accès : \n Pour tout déplacement annulé n'ayant pas fait l'objet d'information à notre service par mail ou par téléphone 24 heures avant la date d’intervention, des frais de gestion et de déplacement de 192 €/TTC seront facturés au bénéficiaire de la recherche de fuite.\nAfin d’effectuer nos investigations dans les meilleures conditions, il est impératif : \n     • D’accéder à toutes les zones concernées par notre mission ou susceptibles d’être à l’origine des désordres.\n     • D’accéder à l’ensemble des circuits et réseaux à contrôler, qui devront être manipulables et maîtrisables le jour de l’intervention.\n\n Dans le cas contraire, nous en réfèrerons à notre mandant pour déterminer la suite à donner. \n\nRecherche de fuite non-destructive\nDans le cadre d’une mission de recherche de fuite non-destructive, nous ne pouvons aggraver la situation rencontrée, dans tous les locaux ou installations concernées, à l’exception des situations suivantes : \n     • Augmentation de l’humidité constatée à notre arrivée, sur un support non sec (suite par exemple à un test d’écoulement)\n     • Ajout d’un produit traçant, visible après notre intervention, sur un support déjà évidemment dégradé et destiné à être rénové\n\n En cas d’action nécessaire à l’investigation présentant un risque de dégradation, nous demanderons l’accord exprès du propriétaire du bien ou l’accord de l’expert ou du mandant avant de procéder.\n\n Notre offre ne tient pas compte de la remise éventuelle en état des tampons de visite, des regards et autres organes des installations d’assainissements éventuellement endommagés lors de leur ouverture et de leur contrôle pour les besoins de l’inspection, compte tenu de leur état de vétusté, ainsi que des travaux préparatoires, pour mener à bien nos investigations (fouilles, mise en place de tampons hermétiques, création de fenêtres de visite, nettoyage ou hydro curage, etc..).\n\nLe montant de nos prestations est forfaitaire et estimatif, tous dépassements horaires feront l’objet d’une facturation supplémentaire.",
+                "mission": "Recherche non destructive de fuite",
+                "relatedCaseId": {
+                    "$id": "5e203654f22e45001a839800"
+                },
+                "workloadEstimateDeco": 0,
+                "createdBy": {
+                    "$id": "5dfcf8cc3a390f0049bbb786"
+                },
+                "modifiedBy": {
+                    "$id": "5dfa7ca29565bc001a3f78c5"
+                },
+                "dateCreated": {
+                    "$date": "2020-02-05T13:41:36.321Z"
+                },
+                "dateModified": {
+                    "$date": "2020-04-08T17:11:02.976Z"
+                },
+                "_id": {
+                    "$id": "5e3ac6107f839d001879b608"
+                },
+                "version": 14,
+                "_meta": {
+                    "tags": {
+                        "documents": [
+                            {
+                                "_id": {
+                                    "$id": "5e20a4ded6a8c70046ff4f3c"
+                                },
+                                "name": "photo-1"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4de9fe468001853bea4"
+                                },
+                                "name": "photo-2"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4ded6a8c70046ff4f3e"
+                                },
+                                "name": "photo-3"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4de4b3cf30018ad8251"
+                                },
+                                "name": "photo-4"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4de792e740018d3d465"
+                                },
+                                "name": "photo-5"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4def22e45001a840258"
+                                },
+                                "name": "photo-6"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4dff5656e0018895304"
+                                },
+                                "name": "photo-7"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4df2445100018f6414d"
+                                },
+                                "name": "photo-8"
+                            },
+                            {
+                                "_id": {
+                                    "$id": "5e20a4dfc8873f0018514404"
+                                },
+                                "name": "photo-9"
+                            }
+                        ]
+                    },
+                    "_overriddenFields": {
+                        "date": true,
+                        "title": true
+                    },
+                    "errors": []
+                },
+                "_resourcePath": "/case/Quote"
+            }
+        ]
+    },
+    "count": 2,
+    "currentPage": 1,
+    "perPage": "all"
+}
