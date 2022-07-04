@@ -45,7 +45,7 @@ const DisplayFiles = ({ id, type, element }) => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:3001/files/${id}/${type}/${element || ""}`)
+    fetch(`http://localhost:3001/api/files/${id}/${type}/${element || ""}`)
       .then((prm) => prm.json())
       .then((rep) => {
         setFiles(rep);
@@ -97,8 +97,8 @@ const DisplayFiles = ({ id, type, element }) => {
               onClick={(e) =>
                 window.open(
                   element
-                    ? `${path}/download/${id}/${type}/${element}/${file}`
-                    : `${path}/download/${id}/${type}/${file}`,
+                    ? `${path}/api/download/${id}/${type}/${element}/${file}`
+                    : `${path}/api/download/${id}/${type}/${file}`,
                   "_blank"
                 )
               }
@@ -119,14 +119,20 @@ function App() {
   const [schema, setSchema] = useState(null);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [cache, setCache] = useState([0, 0, 0, 0]);
 
   useEffect(() => {
     setSchema(null);
     setData(null);
     menuVal !== null && setLoading(true);
-    fetch(`http://localhost:3001/stat/${rules[menuVal]}`)
+    fetch(`http://localhost:3001/api/stat/${rules[menuVal]}`, {
+      cache: cache[menuVal] > 0 ? "force-cache" : "no-cache",
+    })
       .then((prm) => prm.json())
       .then((rep) => {
+        let c = [...cache];
+        c[menuVal]++;
+        setCache(c);
         let definedData = rep.data.map((r) => {
           Object.keys(rep.schema).forEach((s) => {
             if (!r[s]) {

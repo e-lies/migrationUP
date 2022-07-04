@@ -112,6 +112,7 @@ const detailsColumns = {
     key: "$details.riskAddress",
     type: "varchar",
     label: "Adresse",
+    length: 4,
   },
   Access: {
     key: "$details.riskAccess",
@@ -424,7 +425,7 @@ app.get("/download/:id/:type/:name", (req, res) => {
   );
 });
 
-app.get("/download/:id/:type/:element/:name", (req, res) => {
+app.get("/api/download/:id/:type/:element/:name", (req, res) => {
   const { id, type, element, name } = req.params;
   res.download(`Attachments/${id}/${type}/${element}/${name}`, function (err) {
     if (err) {
@@ -433,7 +434,7 @@ app.get("/download/:id/:type/:element/:name", (req, res) => {
   });
 });
 //Stats
-app.get("/stat/:type", (req, res) => {
+app.get("/api/stat/:type", (req, res) => {
   let { type } = req.params;
   if (type === "dossier") {
     Dossiers.aggregate([
@@ -542,7 +543,7 @@ app.get("/factures", (req, res) => {
 });
 */
 
-app.get("/files/:dossier/:type", (req, res) => {
+app.get("/api/files/:dossier/:type", (req, res) => {
   const { dossier, type, element } = req.params;
   const files = fs.readdirSync(
     `Attachments/${dossier}/${type}/${element || ""}`
@@ -550,7 +551,7 @@ app.get("/files/:dossier/:type", (req, res) => {
   res.status(200).send(files);
 });
 
-app.get("/files/:dossier/:type/:element", (req, res) => {
+app.get("/api/files/:dossier/:type/:element", (req, res) => {
   const { dossier, type, element } = req.params;
   const files = fs.readdirSync(
     `Attachments/${dossier}/${type}/${element || ""}`
