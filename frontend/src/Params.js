@@ -1,4 +1,4 @@
-export const path = "http://127.0.0.1:3001"; //"http://130.211.108.62"  //"http://numental.fr/Mtek";
+export const path = window.location.origin; //"http://130.211.108.62"  //"http://numental.fr/Mtek";
 export const limitSession = 120; //nombres maximum d'appel au sessions serveur sans réponse
 export var schemaNbHours = 24;
 export var selectNbMinutes = 10;
@@ -9,8 +9,6 @@ export const defaultLocation = { lat: 48.8645373001102, lng: 2.32148343492213 };
 export const defaultZoom = 14;
 export const defaultRadius = 100000; //rayon de recherche maps en mètre
 export const developmentMode = true;
-export const headerImage = "http://127.0.0.1:8080/Mtek2020/header.png";
-export const footerImage = "http://127.0.0.1:8080/Mtek2020/footer.png";
 export const treeOfLife = [
   {
     id: "vendeur",

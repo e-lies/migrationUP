@@ -45,7 +45,7 @@ const DisplayFiles = ({ id, type, element }) => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:3001/api/files/${id}/${type}/${element || ""}`)
+    fetch(`${path}/api/files/${id}/${type}/${element || ""}`)
       .then((prm) => prm.json())
       .then((rep) => {
         setFiles(rep);
@@ -125,7 +125,7 @@ function App() {
     setSchema(null);
     setData(null);
     menuVal !== null && setLoading(true);
-    fetch(`http://localhost:3001/api/stat/${rules[menuVal]}`, {
+    fetch(`${path}/api/stat/${rules[menuVal]}`, {
       cache: cache[menuVal] > 0 ? "force-cache" : "no-cache",
     })
       .then((prm) => prm.json())
