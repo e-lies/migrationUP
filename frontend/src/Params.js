@@ -1,10 +1,10 @@
-export const path = window.location.origin; //"http://130.211.108.62"  //"http://numental.fr/Mtek";
+export const path = "http://130.211.108.62"; //"http://numental.fr/Mtek";
 export const limitSession = 120; //nombres maximum d'appel au sessions serveur sans réponse
 export var schemaNbHours = 24;
 export var selectNbMinutes = 10;
 export const schemaNbTry = 5;
 export const writeCachMinutes = 240;
-export const googleMapsKey = "AIzaSyBZ7TmIh0kxAuoLYdfNlL9ix2Tfc05QQYA";
+export const googleMapsKey = "";
 export const defaultLocation = { lat: 48.8645373001102, lng: 2.32148343492213 };
 export const defaultZoom = 14;
 export const defaultRadius = 100000; //rayon de recherche maps en mètre

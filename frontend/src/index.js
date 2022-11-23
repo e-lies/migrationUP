@@ -9,7 +9,7 @@ import GeolocationContext from "./context/GeolocationContext";
 //import SpeechSynthesisContext from "./context/SpeechSynthesis";
 //import RecognizerContextProvider from './context/recognizerContext';
 import App from "./App";
-//import Login from "./Login";
+import Login from "./Login";
 import NotFound from "./NotFound";
 //import * as serviceWorker from "./serviceWorker";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -19,6 +19,7 @@ import Theme from "./Themes/Red";
 const theme = createMuiTheme(Theme);
 const Rout = () => (
   <Switch>
+    {/*<Route path="/iwe" component={Login} />*/}
     <Route path="/iwe/:view" component={App} />
     {/*<Route path="/:role" component={Login} />*/}
     <Route default comp={NotFound} />

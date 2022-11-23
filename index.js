@@ -10,6 +10,7 @@ const connexion = require("./connexionMongo");
 //const router = express.Router();
 const Contacts = require("./schemaContacts");
 const Dossiers = require("./schemaData");
+const { Login, RefreshToken, authentication } = require("./authorizations");
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -21,12 +22,15 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Methods",
     "GET, POST, PUT, DELETE, PATCH, OPTIONS"
   );
-  //console.log("walou")
   next();
 });
 
 app.use(express.json({ limit: "50mb" }));
 app.use(compression());
+
+app.post("/api/login", Login);
+
+app.post("/api/refreshToken", RefreshToken);
 
 app.post("/insertContact", (req, res) => {
   //console.log("req.body = ", req.body);
@@ -434,7 +438,7 @@ app.get("/api/download/:id/:type/:element/:name", (req, res) => {
   });
 });
 //Stats
-app.get("/api/stat/:type", (req, res) => {
+app.get("/api/stat/:type", authentication, (req, res) => {
   let { type } = req.params;
   if (type === "dossier") {
     Dossiers.aggregate([
@@ -615,5 +619,5 @@ app.get("/chantiers/status", function (req, res) {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Example app listening at http://localhost:${port}`, process.env);
 });

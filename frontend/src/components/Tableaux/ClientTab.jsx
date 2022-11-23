@@ -383,6 +383,9 @@ const ClientTab = (props) => {
       dispatch({ type: "filter", filters: defaultFilter });
     }
   }, [JSON.stringify(defaultFilter)]);
+  useEffect(()=>{
+    console.log(data)
+  },[JSON.stringify(data)])
   useEffect(() => {
     dispatch({ type: "reset" });
   }, [JSON.stringify(props[schema]), JSON.stringify(props[filterKeys])]);
@@ -443,6 +446,8 @@ const ClientTab = (props) => {
     parseInt(page) * rpp,
     parseInt(parseInt(page) * rpp) + parseInt(rpp)
   );
+  console.log("displayData ",dispData, schema)
+  
   if (expressions && expressions.length > 0) {
     dispData.map((d) => {
       expressions.map((exp) => {
