@@ -132,7 +132,7 @@ function App() {
   const [logged, setLogged] = useState(false);
   const [payload, setPayload] = useState({});
 
-  useEffect(() => {
+  const loadData = () => {
     setSchema(null);
     setData(null);
     menuVal !== null && setLoading(true);
@@ -165,10 +165,13 @@ function App() {
         setSchema(rep.schema);
         setData(definedData);
         setLoading(false);
+        refreshToken();
       })
       .catch((err) => console.log("client error ", err))
       .catch((err) => console.log("server error ", err));
-  }, [menuVal]);
+  };
+
+  useEffect(loadData, [menuVal]);
 
   const login = () => {
     const { email, password } = loginParams;
@@ -210,6 +213,7 @@ function App() {
               JSON.stringify(rep.refreshToken).replace(/"/g, "")
             );
             setLogged(true);
+            loadData();
           });
         })
         .catch((err) => {
