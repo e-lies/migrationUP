@@ -1,5 +1,6 @@
 node_modules
 Attachments
 files
-frontend/
+frontend/node_modules
+frontend/build
 AshtoneFolders
