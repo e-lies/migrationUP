@@ -3,6 +3,7 @@ const app = express();
 const port = 3001;
 const path = require("path");
 const fs = require("fs");
+const zipdir = require("zip-dir");
 const multer = require("./upload");
 const compression = require("compression");
 const connexion = require("./connexionMongo");
@@ -11,6 +12,7 @@ const connexion = require("./connexionMongo");
 const Contacts = require("./schemaContacts");
 const Dossiers = require("./schemaData");
 const { Login, RefreshToken, authentication } = require("./authorizations");
+const moveFolder = require("./moveFolders");
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -156,10 +158,20 @@ const typeColumns = {
       type: "varchar",
       label: "ref Dossier",
     },
+    title: {
+      key: "$factures.title",
+      type: "varchar",
+      label: "Titre",
+    },
     codeFacturation: {
       key: "$factures.codeUpFacturation",
       type: "varchar",
-      label: "code Facturation",
+      label: "Code Facturation",
+    },
+    status: {
+      key: "$factures.status",
+      type: "varchar",
+      label: "Etat",
     },
     Metiers: {
       key: "$factures.metiers",
@@ -213,6 +225,12 @@ const typeColumns = {
       key: "$factures.sommeReglee",
       type: "decimal(10,2)",
       label: "Réglée",
+      suffixe: " €",
+    },
+    restantDu: {
+      key: "$factures.restantDu",
+      type: "decimal(10,2)",
+      label: "Restant dû",
       suffixe: " €",
     },
   },
@@ -418,6 +436,68 @@ var download = function (url, dest, cb) {
     });
 };
 
+app.get("/api/dossier/:id", (req, res) => {
+  const { id } = req.params;
+  Dossiers.findOne({ "details.ref": id }).then((dossier) => {});
+});
+
+app.get("/api/zipFiles/:id/:type/:element", (req, res) => {
+  const { id, type, element } = req.params;
+  let elm = element === "dossier" ? "" : element;
+  Dossiers.findOne({ "details._id.$id": id }).then((dossier) => {
+    console.log("dossier = ", dossier.details.ref);
+    let idDossier = dossier.details["ref"];
+    let folder = `Attachments/${id}/${type}/${elm}`;
+    zipdir(
+      folder,
+      { saveTo: `Attachments/${type}_${elm}_${idDossier}.zip` },
+      function (err, buffer) {
+        if (err) res.send({ err });
+        else {
+          console.log("done");
+          res.download(
+            `Attachments/${type}_${elm}_${idDossier}.zip`,
+            function (err) {
+              if (err) {
+                console.log("download error =", err);
+              }
+            }
+          );
+        }
+      }
+    );
+  });
+});
+
+app.get("/api/moveFolder/:id", (req, res) => {
+  Dossiers.findOne({ "details.ref": req.params.id })
+    .then((dossier) => {
+      if (dossier.details) {
+        console.log("id = ", dossier.details["_id"]["$id"]);
+        let idDossier = dossier.details["_id"]["$id"];
+        moveFolder(
+          `Attachments/${idDossier}`,
+          `AshtoneFolders/${req.params.id}`
+        );
+        moveFolder(`Attachments/${idDossier}`, `AshtoneFolders/${idDossier}`);
+        zipdir(
+          `Attachments/${idDossier}`,
+          { saveTo: `AshtoneFolders/${req.params.id}.zip` },
+          function (err, buffer) {
+            if (err) console.log(err);
+            else console.log("done");
+          }
+        );
+        res.send(idDossier);
+      } else {
+        console.log("dossier not found " + req.params.id);
+      }
+    })
+    .catch((err) => {
+      console.log("error = ", err);
+    });
+});
+
 app.get("/download/:id/:type/:name", (req, res) => {
   res.download(
     `Attachments/${req.params.id}/${req.params.type}/${req.params.name}`,
@@ -429,13 +509,23 @@ app.get("/download/:id/:type/:name", (req, res) => {
   );
 });
 
-app.get("/api/download/:id/:type/:element/:name", (req, res) => {
+app.get("/api/open/:id/:type/:element/:name", (req, res) => {
   const { id, type, element, name } = req.params;
-  res.download(`Attachments/${id}/${type}/${element}/${name}`, function (err) {
+  console.log(`Attachments/${id}/${type}/${element}/${name}`);
+  readable = fs.createReadStream(
+    `Attachments/${id}/${type}/${element}/${name}`
+  );
+  readable.pipe(res.status(200));
+  /*res.download(`Attachments/${id}/${type}/${element}/${name}`, function (err) {
     if (err) {
       console.log("download error =", err);
     }
-  });
+  });*/
+});
+app.get("/api/open/:id/:type/:name", (req, res) => {
+  const { id, type, name } = req.params;
+  readable = fs.createReadStream(`Attachments/${id}/${type}/${name}`);
+  readable.pipe(res.status(200));
 });
 //Stats
 app.get("/api/stat/:type", authentication, (req, res) => {
@@ -553,6 +643,15 @@ app.get("/api/files/:dossier/:type", (req, res) => {
     `Attachments/${dossier}/${type}/${element || ""}`
   );
   res.status(200).send(files);
+});
+
+app.get("/api/testfile", (req, res) => {
+  //let myfile = fs.readFileSync("Attachments/5e0dc93c2c347e25938ebb87/dossier/ORDRE_DE_MISSION_ES.pdf")
+  readable = fs.createReadStream(
+    "Attachments/5e0dc93c2c347e25938ebb87/dossier/ORDRE_DE_MISSION_ES.pdf"
+  );
+  readable.pipe(res.status(200));
+  //res.status(200).send(files);
 });
 
 app.get("/api/files/:dossier/:type/:element", (req, res) => {
